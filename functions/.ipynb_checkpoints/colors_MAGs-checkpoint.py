@@ -6,7 +6,7 @@ from matplotlib import colors
 
 
 
-def phylum_colors_func():
+def phylum_colors_func(): 
     """
         Returns:
         phyla_lut (dict): A dictionary mapping each unique phylum (str) to a color (RGB tuple).
@@ -107,6 +107,7 @@ def chebi_rxn_color_func(rxn_based=True,selected_super_classes=False):
         
     interesting_super_classes = chebi_interesting["self defined super class"].unique()
     """
+    # OLD COLORS
     chebi_pal=[
         "#FF85A1",  # Vivid Bubblegum Pink
         darken_color("#FFAD60",0.1),  # Vivid Peach
@@ -123,8 +124,8 @@ def chebi_rxn_color_func(rxn_based=True,selected_super_classes=False):
         "#FFB3BA",  # Pastel Pink
         "#FFFFBA"  # Pastel Yellow
     ]
-    """
     
+    # NEWER VERSION
     chebi_pal=[
     "#FF85A1",  # carbohydrates and derivatives
     "#ddaa7b",  # amino acids
@@ -140,11 +141,31 @@ def chebi_rxn_color_func(rxn_based=True,selected_super_classes=False):
     "#FFB3BA",  # carboxylic acids
     "#C3BBF3",  # alcohols and aldehydes C3BBF3
     "#8FCFFF" # phospholipids    
-]
+    ]
     
-    chebi_pal = [darken_color(color, amount=0.0) for color in chebi_pal]
+    """
+    
 
-    chebi_lut = dict(zip(map(str, interesting_super_classes),chebi_pal))
+    # New colors
+    chebi_lut = {"carbohydrate derivatives":"#e5fa79",  # carbohydrates and derivatives  
+ "amino acids and derivatives":"#ddaa7b",  # amino acids
+ "nucleotides and derivatives":"#fbdc5d",  # nucleosides
+ "oligosaccharides":"#a7dfb6",  # oligosaccharides
+ "oligopeptides":"#FFD19B",  # oligopeptides -FFD19B
+ "simple sugars":"#bfffa4",  # simple sugars -d5f588
+ "urea and urea derivatives":"#FFFFBA",  # urea 
+ "gases":"#b1fbf6",  # gasses
+ "B-vitamins":"#adb0e8",  # B-vitamins
+ "fatty acids":"#ffd1fd",   # fatty acids
+ "carboxylic acids and anions":"#FFB3BA",  # carboxylic acids
+ "alcohols and aldehydes":"#C3BBF3",  # alcohols and aldehydes C3BBF3
+ "lipids":"#8FCFFF", # phospholipids    
+ "cofactors":"#FF85A1" 
+}
+    
+    #chebi_pal = [darken_color(color, amount=0.0) for color in chebi_pal]
+
+    #chebi_lut = dict(zip(map(str, interesting_super_classes),chebi_pal))
     chebi_interesting.loc[:,"colors"]=chebi_interesting["self defined super class"].map(lambda x:chebi_lut[x])
     chebi_colors_ser = pd.Series(chebi_interesting["colors"].values,index=chebi_interesting.index)
     
@@ -156,12 +177,12 @@ def chebi_rxn_color_func(rxn_based=True,selected_super_classes=False):
     
     assert chebi_interesting.loc[chebi_prefix+"glc__D_e","self defined super class"]=="simple sugars"
     assert chebi_interesting.loc[chebi_prefix+"ala__D_e","self defined super class"]=="amino acids and derivatives"
-    assert chebi_interesting.loc[chebi_prefix+"adn_e","self defined super class"]== 'nucleosides and derivatives'
+    assert chebi_interesting.loc[chebi_prefix+"adn_e","self defined super class"]== 'nucleotides and derivatives'
     
     
     assert chebi_colors_ser.loc[chebi_prefix+"glc__D_e"]==chebi_lut["simple sugars"]
     assert chebi_colors_ser.loc[chebi_prefix+"ala__D_e"]==chebi_lut["amino acids and derivatives"]
-    assert chebi_colors_ser.loc[chebi_prefix+"adn_e"]==chebi_lut['nucleosides and derivatives']
+    assert chebi_colors_ser.loc[chebi_prefix+"adn_e"]==chebi_lut['nucleotides and derivatives']
     
     if selected_super_classes:
         chebi_lut_reduced = {key:value for key,value in chebi_lut.items() if key in selected_super_classes}

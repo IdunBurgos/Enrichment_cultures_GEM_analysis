@@ -13,7 +13,7 @@ def merge_phyla(phyla):
     else:
         return phyla
 
-def read_allmags_data():
+def read_allmags_data(): 
     """
     Reads and processes MAGs (Metagenome-Assembled Genomes) data from an Excel file.
 
@@ -51,11 +51,11 @@ def read_allmags_data():
 
 
 def chebi_selected(interesting_super_classes=['carbohydrate derivatives', 'amino acids and derivatives',
-       'nucleosides and derivatives', 'oligosaccharides', 'oligopeptides',
-       'simple sugars', 'urea and urea derivatives', 'gasses',
-       'B-vitamins and cofactors', 'fatty acids',
+       'nucleotides and derivatives', 'oligosaccharides', 'oligopeptides',
+       'simple sugars', 'urea and urea derivatives', 'gases',
+       'B-vitamins', 'cofactors', 'fatty acids',
        'carboxylic acids and anions', 'alcohols and aldehydes',
-       'phospholipids'], rxn_based=True):
+       'lipids'], rxn_based=True):
     
     met_chebi_class = pd.read_csv("../output/met_chebi_class.tsv",index_col=0,sep="\t")
     chebi_interesting = met_chebi_class.copy()

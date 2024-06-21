@@ -11,7 +11,7 @@ def mmol2g(row,fluxorrate="flux"):
     flux_g = molweight*row[fluxorrate]/1000
     return flux_g
 
-def find_members(steadiercom_crossfeeding_all,all_mags_paper):
+def find_members(steadiercom_crossfeeding_all,all_mags_paper):  
    
     # Find members of this dataset 
     MAGs_steady_com = set(list(steadiercom_crossfeeding_all.donor.dropna().values)+list(steadiercom_crossfeeding_all.receiver.dropna().values))
