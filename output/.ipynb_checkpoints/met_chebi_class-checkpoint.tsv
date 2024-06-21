@@ -1,0 +1,383 @@
+	chebi id	chebi class	self defined super class
+M_12ppd__R_e	CHEBI:26191	polyol	other
+M_25dkglcn_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_26dap__M_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_2hxmp_e	CHEBI:33853	phenols	aromatic compounds
+M_3cmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_3ump_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_4abut_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_4ahmmp_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_4hpro_LT_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_5drib_e	CHEBI:23639	deoxy sugar	carbohydrate derivatives
+M_Larab_e	CHEBI:22590	arabinan	oligosaccharides
+M_ala_L_asp__L_e	CHEBI:25676	oligopeptide	oligopeptides
+M_ala__D_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_ala__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_arab__L_e	CHEBI:35381	monosaccharide	simple sugars
+M_arg__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_asn__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_asp__L_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_btn_e	CHEBI:47857	ureas	urea and urea derivatives
+M_ca2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_cd2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_cellb_e	CHEBI:3523	cellodextrin	oligosaccharides
+M_cgly_e	CHEBI:25676	oligopeptide	oligopeptides
+M_chol_e	CHEBI:23217	cholines	other
+M_cl_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_co2_e	CHEBI:138675	gas molecular entity	gasses
+M_cobalt2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_cu2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_cys__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_dextrin_e	CHEBI:37163	glucan (undefined)	oligosaccharides
+M_drib_e	CHEBI:23639	deoxy sugar	carbohydrate derivatives
+M_enter_e	CHEBI:33853	phenols	aromatic compounds
+M_fe2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_fe3_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_feenter_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_fol_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_fru_e	CHEBI:35381	monosaccharide	simple sugars
+M_fuc__L_e	CHEBI:23639	deoxy sugar	carbohydrate derivatives
+M_g3pc_e	CHEBI:23217	cholines	other
+M_g3ps_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_gal_bD_e	CHEBI:35381	monosaccharide	simple sugars
+M_gal_e	CHEBI:35381	monosaccharide	simple sugars
+M_galt_e	CHEBI:26191	polyol	other
+M_galur_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_gcald_e	CHEBI:26191	polyol	other
+M_glc__D_e	CHEBI:35381	monosaccharide	simple sugars
+M_glc__aD_e	CHEBI:35381	monosaccharide	simple sugars
+M_glcn__D_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_glcn_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_gln__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_glu__L_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_gly_asp__L_e	CHEBI:25676	oligopeptide	oligopeptides
+M_gly_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_glyb_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_glyc_e	CHEBI:26191	polyol	other
+M_gthrd_e	CHEBI:25676	oligopeptide	oligopeptides
+M_gua_e	CHEBI:26401	purines	nucleosides and derivatives
+M_h2o_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_h2s_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_h_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_his__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_hqn_e	CHEBI:33853	phenols	aromatic compounds
+M_hxan_e	CHEBI:26401	purines	nucleosides and derivatives
+M_ile__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_inost_e	CHEBI:26191	polyol	other
+M_k_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_lcts_e	CHEBI:36233	disaccharide	simple sugars
+M_leu__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_lmn2_e	CHEBI:36233	disaccharide	simple sugars
+M_lys__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_malt_e	CHEBI:36233	disaccharide	simple sugars
+M_man_e	CHEBI:35381	monosaccharide	simple sugars
+M_melib_e	CHEBI:36233	disaccharide	simple sugars
+M_met__D_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_met__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_metox_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_mg2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_mn2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_mnl_e	CHEBI:26191	polyol	other
+M_mobd_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_na1_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_ncam_e	CHEBI:75769	B vitamin	cofactors and vitamins
+M_nh4_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_ni2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_no2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_o2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_orn_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_phe__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_pi_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_pnto__R_e	CHEBI:75769	B vitamin	cofactors and vitamins
+M_ppi_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_pro__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_rib__D_e	CHEBI:35381	monosaccharide	simple sugars
+M_ribflv_e	CHEBI:75769	B vitamin	cofactors and vitamins
+M_s_e	CHEBI:25585	nonmetal atom	minerals and atoms
+M_sbt__D_e	CHEBI:26191	polyol	other
+M_ser__D_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_ser__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_so4_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_sucr_e	CHEBI:36233	disaccharide	simple sugars
+M_thm_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_thr__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_tre_e	CHEBI:36233	disaccharide	simple sugars
+M_trp__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_tsul_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_tyr__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_ura_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_val__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_xan_e	CHEBI:26401	purines	nucleosides and derivatives
+M_xyl__D_e	CHEBI:35381	monosaccharide	simple sugars
+M_zn2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_alaala_e	CHEBI:25676	oligopeptide	oligopeptides
+M_arab__D_e	CHEBI:35381	monosaccharide	simple sugars
+M_aso3_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_cm_e	CHEBI:26191	polyol	other
+M_doxrbcn_e	CHEBI:26188	polyketide	other
+M_glyald_e	CHEBI:35381	monosaccharide	simple sugars
+M_glyphe_e	CHEBI:25676	oligopeptide	oligopeptides
+M_gmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_h2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_h2o2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_hxa_e	CHEBI:58954	straight-chain saturated fatty acid anion	fatty acids
+M_indole_e	CHEBI:24828	indoles	other
+M_leuleu_e	CHEBI:25676	oligopeptide	oligopeptides
+M_m_xyl_e	CHEBI:27338	xylene	aromatic compounds
+M_no3_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_novbcn_e	CHEBI:33853	phenols	aromatic compounds
+M_ocdca_e	CHEBI:58954	straight-chain saturated fatty acid anion	fatty acids
+M_octa_e	CHEBI:58954	straight-chain saturated fatty acid anion	fatty acids
+M_p_xyl_e	CHEBI:27338	xylene	aromatic compounds
+M_pheme_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_progly_e	CHEBI:25676	oligopeptide	oligopeptides
+M_sel_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_so3_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_tartr__D_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_tet_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_thym_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_tol_e	CHEBI:27024	toluenes	aromatic compounds
+M_tton_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_ttrcyc_e	CHEBI:26188	polyketide	other
+M_urea_e	CHEBI:47857	ureas	urea and urea derivatives
+M_3gmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_dha_e	CHEBI:35381	monosaccharide	simple sugars
+M_glcur_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_gsn_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_hom__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_ins_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_n2o_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_no_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_2ddglcn_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_3amp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_abt_e	CHEBI:26191	polyol	other
+M_ade_e	CHEBI:26401	purines	nucleosides and derivatives
+M_all__D_e	CHEBI:35381	monosaccharide	simple sugars
+M_fad_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_galctr__D_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_glcr_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_ham_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_ind3ac_e	CHEBI:24828	indoles	other
+M_lyx__L_e	CHEBI:35381	monosaccharide	simple sugars
+M_nac_e	CHEBI:75769	B vitamin	cofactors and vitamins
+M_rmn_e	CHEBI:23639	deoxy sugar	carbohydrate derivatives
+M_tartr__L_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_xylb_e	CHEBI:36233	disaccharide	simple sugars
+M_12ppd__S_e	CHEBI:26191	polyol	other
+M_abt__L_e	CHEBI:26191	polyol	other
+M_ala_B_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_crn_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_csn_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_ctbt_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_ibt_e	CHEBI:58956	branched-chain saturated fatty acid anion	fatty acids
+M_pta_e	CHEBI:58954	straight-chain saturated fatty acid anion	fatty acids
+M_4hba_e	CHEBI:33853	phenols	aromatic compounds
+M_co_e	CHEBI:138675	gas molecular entity	gasses
+M_lipoate_e	CHEBI:33576	sulfur-containing carboxylic acid	carboxylic acids and anions
+M_coa_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_cytd_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_n2_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_nmn_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_5aptn_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_LalaLglu_e	CHEBI:25676	oligopeptide	oligopeptides
+M_glygly_e	CHEBI:25676	oligopeptide	oligopeptides
+M_rnam_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_sheme_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_4abz_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_5dglcn_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_ag_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_asp__D_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_orot_e	CHEBI:39447	pyrimidines	nucleosides and derivatives
+M_idon__L_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_minohp_e	CHEBI:26191	polyol	other
+M_cpgn_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_starch_e	CHEBI:37163	glucan (undefined)	oligosaccharides
+M_acglu_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_glu__D_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_ascb__L_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_dtmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_manglyc_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_metsox_R__L_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_metsox_S__L_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_23ccmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_orn__L_e	CHEBI:37022	amino-acid anion	amino acids and derivatives
+M_34dhcinm_e	CHEBI:33853	phenols	aromatic compounds
+M_confrl_e	CHEBI:33853	phenols	aromatic compounds
+M_cu_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_ga_e	CHEBI:33853	phenols	aromatic compounds
+M_id3acald_e	CHEBI:24828	indoles	other
+M_34dhbz_e	CHEBI:33853	phenols	aromatic compounds
+M_4hbz_e	CHEBI:33853	phenols	aromatic compounds
+M_adn_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_alltn_e	CHEBI:47857	ureas	urea and urea derivatives
+M_dad_2_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_feoxam_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_galct__D_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_galctn__D_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_glyc__R_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_lys__D_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_nona_e	CHEBI:58954	straight-chain saturated fatty acid anion	fatty acids
+M_sulfac_e	CHEBI:33576	sulfur-containing carboxylic acid	carboxylic acids and anions
+M_vanlt_e	CHEBI:33853	phenols	aromatic compounds
+M_xtsn_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_damp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_dgmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_dimp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_dump_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_galctn__L_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_guln__L_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_xmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_mmet_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_LalaDglu_e	CHEBI:25676	oligopeptide	oligopeptides
+M_citr__L_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_dcyt_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_dgsn_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_din_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_duri_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_thymd_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_uri_e	CHEBI:33838	nucleoside	nucleosides and derivatives
+M_fmn_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_2dhglcn_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_3mb_e	CHEBI:58956	branched-chain saturated fatty acid anion	fatty acids
+M_fe3hox_e	CHEBI:33892	iron coordination entity	cofactors and vitamins
+M_cro4_e	CHEBI:24835	inorganic ion	minerals and atoms
+M_pydxn_e	CHEBI:75769	B vitamin	cofactors and vitamins
+M_fruur_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_23camp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_23cump_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_xylu__L_e	CHEBI:35381	monosaccharide	simple sugars
+M_13ppd_e	CHEBI:26191	polyol	other
+M_Lcyst_e	CHEBI:83821	amino acid derivative	amino acids and derivatives
+M_sula_e	CHEBI:33576	sulfur-containing carboxylic acid	carboxylic acids and anions
+M_dxyl_e	CHEBI:23639	deoxy sugar	carbohydrate derivatives
+M_frulys_e	CHEBI:33709	amino acid	amino acids and derivatives
+M_amp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_cmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_dcmp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_glcur1p_e	CHEBI:33720	carbohydrate acid	carbohydrate derivatives
+M_imp_e	CHEBI:25608	nucleoside phosphate	nucleosides and derivatives
+M_urate_e	CHEBI:26401	purines	nucleosides and derivatives
+M_acald_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_actn__R_e	CHEBI:35681	secondary alcohol	alcohols and aldehydes
+M_bhb_e	CHEBI:35681	secondary alcohol	alcohols and aldehydes
+M_etha_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_malthp_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_malthx_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_malttr_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_meoh_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_pacald_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_raffin_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_salcn_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_fald_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_fusa_e	CHEBI:35681	secondary alcohol	alcohols and aldehydes
+M_g3pg_e	CHEBI:16247	phospholipid	phospholipids
+M_ppoh_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_icit_e	CHEBI:35681	secondary alcohol	alcohols and aldehydes
+M_maltttr_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_xyl3_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_4abutn_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_dhptd_e	CHEBI:35681	secondary alcohol	alcohols and aldehydes
+M_glyclt_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_udcpdp_e	CHEBI:16247	phospholipid	phospholipids
+M_udcpp_e	CHEBI:16247	phospholipid	phospholipids
+M_bzal_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_manttr_e	CHEBI:50699	oligosaccharide (undefined)	oligosaccharides
+M_etoh_e	CHEBI:15734	primary alcohol	alcohols and aldehydes
+M_2mbald_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_glx_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_ppal_e	CHEBI:17478	aldehyde	alcohols and aldehydes
+M_2ameph_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_2obut_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_2pglyc_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_ac_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_acgam_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_acmana_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_acnam_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_arbt_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_bz_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_chols_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_fum_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_g3pi_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_gam_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_glyc3p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_madg_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_mal__L_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_man1p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_man6pglyc_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_mnl1p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_ocdcea_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_pac_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_ppap_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_ptrc_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_quin_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_spmd_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_succ_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_5mdru1p_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_acac_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_cit_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_f6p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_for_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_g3pe_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_hdca_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_mso3_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_pime_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_acgam1p_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_arbt6p_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_lac__D_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_acon_C_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_glyc2p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_gthox_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_mal__D_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_ad_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_lac__L_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_15dap_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_akg_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_oaa_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_oxa_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_dms_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_dmso_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_skm_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_taur_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_ch4s_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_lnlc_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_tcb_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_3oxoadp_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_cinnm_e	CHEBI:33575	carboxylic acid	carboxylic acids and anions
+M_ethso3_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_glutar_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_isetac_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_tcynt_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_tma_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_Ncbmpts_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_tre6p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_pyr_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_agm_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_uaccg_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_peamn_e	CHEBI:35352	organonitrogen compound	organonitrogen compounds
+M_gam6p_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_chor_e	CHEBI:29067	carboxylic acid anion	carboxylic acids and anions
+M_eths_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_istnt_e	CHEBI:33261	organosulfur compound	organosulfur compounds
+M_acgal1p_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_gal1p_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_uacgam_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_udpacgal_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_udpg_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_udpgal_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_udpglcur_e	CHEBI:63299	carbohydrate derivative	carbohydrate derivatives
+M_g6p_B_e	CHEBI:25710	organophosphorus compound	organophosphorus compounds
+M_QQQG_e	CHEBI:18233	xyloglucan	oligosaccharides
+M_QLQG_e	CHEBI:18233	xyloglucan	oligosaccharides
+M_QLLG_e	CHEBI:18233	xyloglucan	oligosaccharides
+M_QQLG_e	CHEBI:18233	xyloglucan	oligosaccharides
+M_GQQG_e	CHEBI:18233	xyloglucan	oligosaccharides
+M_XAXX_e	CHEBI:28427	arabinoxylan	oligosaccharides
+M_A23XX_e	CHEBI:28427	arabinoxylan	oligosaccharides
+M_AXX_e	CHEBI:28427	arabinoxylan	oligosaccharides
+M_XA23XX_e	CHEBI:28427	arabinoxylan	oligosaccharides
+M_AX_e	CHEBI:28427	arabinoxylan	oligosaccharides
+M_cell5_e	CHEBI:3523	cellodextrin	oligosaccharides
+M_cell4_e	CHEBI:3523	cellodextrin	oligosaccharides
+M_cell3_e	CHEBI:3523	cellodextrin	oligosaccharides
+M_xylan4_e	CHEBI:60938	glucuronoxylan	oligosaccharides
+M_xylan8_e	CHEBI:60938	glucuronoxylan	oligosaccharides

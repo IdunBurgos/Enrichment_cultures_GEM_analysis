@@ -1,0 +1,15 @@
+DS_Store
+carveme/
+input/genbank.zip
+input/genbank/
+lib/
+notebooks_old/
+output/GEMs/GEMs_adapt_media_ACt2r/        
+output/GEMs/GEMs_intermediate/        
+output/GEMs/GEMs_intermediate.zip
+input/genbank/
+input/genbank.zip
+output/GEMs/GEMs_no_constraints/        
+output/MAGs_fasta.zip        
+output/MAGs_fasta/       
+output/old_data/

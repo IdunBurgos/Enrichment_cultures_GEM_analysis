@@ -1,0 +1,108 @@
+genome	number of scaffolds	taxonomy	completeness score	contamination score
+CH1-bin.0	321	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Acutalibacteraceae;g__Clostridium_E;s__Clostridium_E jeddahense	97.43	1.2
+CH1-bin.1	20	d__Bacteria;p__Thermodesulfobiota;c__Thermodesulfobiia;o__Thermodesulfobiales;f__Thermodesulfobiaceae;g__Thermodesulfobium;s__	94.83	1.72
+CH1-bin.10	31	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Thiomonas;s__	99.57	0.0
+CH1-bin.2	140	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__JAAUTT01;g__;s__	98.1	2.3
+CH1-bin.3	52	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae;g__Microbacter;s__	100.0	0.54
+CH1-bin.4	37	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Ethanoligenenaceae;g__;s__	97.99	1.68
+CH1-bin.5	297	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Anaerocolumna;s__	97.2	2.35
+CH1-bin.6	27	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora sp015057705	99.37	1.9
+CH1-bin.7	635	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas_E;s__Pseudomonas_E fluorescens_BV	94.9	0.53
+CH1-bin.8	46	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora celerecrescens_B	97.11	0.63
+CH1-bin.9	57	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Solidesulfovibrio;s__	100.0	0.0
+CH13-bin.0	24	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Oscillospiraceae;g__Oscillibacter;s__Oscillibacter ruminantium	99.33	0.67
+CH13-bin.1	30	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Cupidesulfovibrio;s__	100.0	0.0
+CH13-bin.10	496	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Tissierellales;f__Sedimentibacteraceae;g__Sedimentibacter;s__	94.29	3.85
+CH13-bin.11	66	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__Desulfovibrio legallii	100.0	0.0
+CH13-bin.12	38	d__Bacteria;p__Fibrobacterota;c__Fibrobacteria;o__Fibrobacterales;f__Fibrobacteraceae;g__Fibro-01;s__Fibro-01 sp001462345	98.84	2.2
+CH13-bin.13	29	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__Spiro-10;s__Spiro-10 sp004294945	100.0	0.0
+CH13-bin.14	60	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora indolis	99.37	1.58
+CH13-bin.16	182	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__Aminobacterium;s__Aminobacterium colombiense	98.31	0.0
+CH13-bin.17	115	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__DUOS01;s__DUOS01 sp002070025	98.6	0.0
+CH13-bin.19	15	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA4181;g__;s__	99.37	0.0
+CH13-bin.2	160	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Mobilitalea;s__Mobilitalea sp014174405	98.3	2.01
+CH13-bin.20	311	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__Aminivibrio;s__Aminivibrio sp009929115	97.69	0.0
+CH13-bin.21	163	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__Sphaerochaeta sp001604325	95.33	1.15
+CH13-bin.22	165	d__Bacteria;p__Cloacimonadota;c__Cloacimonadia;o__Cloacimonadales;f__Cloacimonadaceae;g__Cloacimonas;s__Cloacimonas sp002432865	97.8	1.1
+CH13-bin.24	39	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA932;g__Cryptobacteroides;s__Cryptobacteroides sp012800665	91.43	0.0
+CH13-bin.25	55	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__Sphaerochaeta sp012514185	98.86	2.27
+CH13-bin.4	20	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides graminisolvens	99.25	0.38
+CH13-bin.6	68	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus_I;s__Enterococcus_I lemanii	98.51	0.0
+CH13-bin.8	144	d__Bacteria;p__Actinobacteriota;c__Actinomycetia;o__Actinomycetales;f__Cellulomonadaceae;g__Actinotalea;s__Actinotalea sp012514545	95.38	1.16
+CH14-bin.1	48	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora amygdalina_A	99.37	0.32
+CH14-bin.2	69	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Robinsoniella;s__Robinsoniella peoriensis	99.37	0.63
+CH14-bin.4	145	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__Desulfovibrio legallii	99.41	0.59
+CH15-bin.0	47	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__DUOS01;s__DUOS01 sp002070025	100.0	0.0
+CH15-bin.1	25	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides graminisolvens	99.25	0.38
+CH15-bin.10	61	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__Aminivibrio;s__Aminivibrio sp009929115	100.0	0.0
+CH15-bin.11	88	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__Desulfovibrio legallii	99.98	0.0
+CH15-bin.12	15	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae;g__Proteiniphilum;s__Proteiniphilum sp012799155	99.45	0.0
+CH15-bin.13	81	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Lentimicrobiaceae;g__Lentimicrobium;s__Lentimicrobium sp001603685	97.13	1.08
+CH15-bin.15	14	d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfobulbaceae;g__Desulfobulbus;s__Desulfobulbus sp012729435	97.02	0.0
+CH15-bin.16	23	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__	99.37	2.22
+CH15-bin.17	14	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Cupidesulfovibrio;s__	100.0	0.0
+CH15-bin.18	219	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora indolis	92.27	0.95
+CH15-bin.2	76	d__Bacteria;p__Cloacimonadota;c__Cloacimonadia;o__Cloacimonadales;f__Cloacimonadaceae;g__Cloacimonas;s__Cloacimonas sp002432865	98.9	1.1
+CH15-bin.20	66	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__Oscillospiraceae;g__;s__	97.99	1.34
+CH15-bin.22	80	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Desulfuromonadales;f__Syntrophotaleaceae;g__Syntrophotalea;s__Syntrophotalea acetylenica	99.35	0.65
+CH15-bin.23	16	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__SZUA-584;g__DTFZ01;s__	97.2	0.7
+CH15-bin.3	69	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus_I;s__Enterococcus_I lemanii	98.51	0.0
+CH15-bin.4	389	d__Bacteria;p__Thermotogota;c__Thermotogae;o__Petrotogales;f__Kosmotogaceae;g__Mesotoga;s__Mesotoga sp002305955	93.81	2.04
+CH15-bin.5	218	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae;g__Proteiniphilum;s__Proteiniphilum saccharofermentans	97.81	1.64
+CH15-bin.6	12	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio;s__Desulfovibrio desulfuricans	100.0	0.0
+CH15-bin.7	50	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__Sphaerochaeta sp012514185	98.86	1.14
+CH15-bin.8	97	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfocurvibacter;s__Desulfocurvibacter africanus	100.0	0.59
+CH2-bin.0	27	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lacrimispora;s__Lacrimispora celerecrescens_B	96.28	0.0
+CH2-bin.3	17	d__Bacteria;p__Thermodesulfobiota;c__Thermodesulfobiia;o__Thermodesulfobiales;f__Thermodesulfobiaceae;g__Thermodesulfobium;s__	100.0	1.72
+CH2-bin.4	95	d__Bacteria;p__Actinobacteriota;c__Actinomycetia;o__Actinomycetales;f__Cellulomonadaceae;g__Cellulomonas;s__	97.78	0.19
+CH2-bin.5	66	d__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Thiomonas;s__	99.14	0.21
+CH2-bin.6	50	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae;g__Microbacter;s__	100.0	0.54
+CH2-bin.7	32	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Solidesulfovibrio;s__	100.0	0.0
+CH3-bin.0	560	d__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales_G;f__Sporolactobacillaceae;g__Sporolactobacillus;s__	93.06	4.66
+CH3-bin.1	121	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium_S;s__	99.31	4.52
+CH3-bin.2	58	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium sp000230835	99.19	1.61
+CH7-bin.1	51	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Trichococcus;s__ N/A 	98.91	3.84
+CH7-bin.11	83	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__	94.25	0.0
+CH7-bin.12	118	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfomicrobiaceae;g__Desulfomicrobium;s__Desulfomicrobium sp009930495	95.24	0.0
+CH7-bin.13	83	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides graminisolvens	93.98	0.8
+CH7-bin.14	114	d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__Desulfococcaceae;g__Desulfococcus;s__Desulfococcus multivorans	95.16	1.94
+CH7-bin.15	105	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__;s__	98.8	2.27
+CH7-bin.16	23	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Humidesulfovibrio;s__	99.11	0.0
+CH7-bin.17	149	d__Bacteria;p__Desulfobacterota;c__Desulfobacteria;o__Desulfobacterales;f__UBA2174;g__UBA2174;s__	97.42	3.23
+CH7-bin.18	26	d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfobulbaceae;g__Desulfobulbus;s__Desulfobulbus propionicus	96.76	0.0
+CH7-bin.2	33	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Verruco-01;g__Verruco-01;s__Verruco-01 sp016928295	97.3	0.68
+CH7-bin.20	93	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__;s__	97.72	1.61
+CH7-bin.21	249	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminobacteriaceae;g__Aminivibrio;s__Aminivibrio sp009929115	98.31	0.0
+CH7-bin.23	41	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Halodesulfovibrio;s__	99.41	0.07
+CH7-bin.24	177	d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__Desulfobulbaceae;g__Desulfobulbus;s__	94.15	0.6
+CH7-bin.25	109	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Verruco-01;g__Verruco-01;s__	95.61	2.03
+CH7-bin.4	253	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Solidesulfovibrio;s__	94.64	1.79
+CH7-bin.6	174	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae;g__Proteiniphilum;s__Proteiniphilum sp012837345	97.76	0.55
+CH7-bin.8	51	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__Sphaerochaeta sp012511235	95.05	0.0
+CH7-bin.9	229	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Lentimicrobiaceae;g__Lentimicrobium;s__Lentimicrobium sp002410555	95.7	2.06
+CH8-bin.0	22	d__Bacteria;p__Firmicutes_C;c__Negativicutes;o__Acidaminococcales;f__Acidaminococcaceae;g__JAAYIB01;s__JAAYIB01 sp012744295	99.38	0.3
+CH8-bin.11	210	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__Limiplasma;s__	96.47	1.28
+CH8-bin.12	83	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Spiro-02;s__Spiro-02 sp001604275	96.55	0.0
+CH8-bin.14	138	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Christensenellales;f__CAG-74;g__Limiplasma;s__	97.98	1.15
+CH8-bin.16	86	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides;s__Bacteroides graminisolvens	96.8	1.17
+CH8-bin.17	52	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Verruco-01;g__Verruco-01;s__	96.62	2.03
+CH8-bin.2	150	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Sphaerochaeta;s__	95.45	0.0
+CH8-bin.20	289	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__Anaerolineaceae;g__Bellilinea;s__	91.09	1.82
+CH8-bin.21	122	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA932;g__DMER64;s__DMER64 sp002408205	94.43	3.02
+CH8-bin.22	47	d__Bacteria;p__Fibrobacterota;c__Fibrobacteria;o__Fibrobacterales;f__Fibrobacteraceae;g__Fibro-01;s__Fibro-01 sp001462345	98.84	1.1
+CH8-bin.25	87	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__UBA6814;s__	99.11	0.89
+CH8-bin.27	299	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Acetivibrionales;f__DSM-8532;g__;s__	94.65	1.99
+CH8-bin.29	109	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Dysgonomonadaceae;g__Proteiniphilum;s__Proteiniphilum sp012837345	95.99	0.55
+CH8-bin.4	71	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Tissierellales;f__Sedimentibacteraceae;g__Sedimentibacter;s__Sedimentibacter sp018436705	99.07	0.35
+CH8-bin.5	26	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__DUOS01;s__DUOS01 sp002070025	100.0	0.0
+CH8-bin.6	35	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiae;o__Opitutales;f__Verruco-01;g__Verruco-01;s__Verruco-01 sp016928295	97.97	1.35
+CH8-bin.7	14	d__Bacteria;p__Firmicutes;c__Bacilli;o__RFN20;f__CAG-826;g__UBA7706;s__	99.44	0.0
+CH8-bin.8	38	d__Bacteria;p__Desulfobacterota_I;c__Desulfovibrionia;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfocurvibacter;s__	100.0	0.0
+CH8-bin.9	73	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Oscillospirales;f__CAG-272;g__;s__	96.4	0.67
+CH9-bin.0	35	d__Bacteria;p__Actinobacteriota;c__Actinomycetia;o__Actinomycetales;f__Bifidobacteriaceae;g__Bifidobacterium;s__	99.03	2.82
+CH9-bin.1	219	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Robinsoniella;s__Robinsoniella peoriensis	92.42	0.47
+CH9-bin.2	67	d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium;s__Clostridium sartagoforme_A	100.0	1.13
+CH9-bin.4	88	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__Lentilactobacillus diolivorans	98.82	0.78
+CH9-bin.5	81	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lentilactobacillus;s__Lentilactobacillus rapi	99.06	0.21
+CH9-bin.6	42	d__Bacteria;p__Firmicutes;c__Bacilli;o__Erysipelotrichales;f__Coprobacillaceae;g__Erysipelatoclostridium;s__Erysipelatoclostridium ramosum	100.0	0.0
+CH9-bin.8	87	d__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Schleiferilactobacillus;s__Schleiferilactobacillus harbinensis	98.17	0.52
