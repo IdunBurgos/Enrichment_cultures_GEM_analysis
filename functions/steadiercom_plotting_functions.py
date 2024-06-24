@@ -31,11 +31,7 @@ def assign_super_class(row):
     return super_class
 
 def data_uptake_prod(steadiercom_crossfeeding_all,abundance,community_id=False,compound_type=False,fluxorrate="flux",only_media=False):
-   
-                #met2superclass_dict = chebi_interesting["self defined super class"].to_dict()
-    
-                #phyla_groups,mag2phyla_dict,MAGs_steadycom_dict = find_members(steadiercom_crossfeeding_all,all_mags_paper)
-    
+
     ## Process input data (add superclass and convert to mass_rate)
     
     if community_id:
@@ -50,9 +46,7 @@ def data_uptake_prod(steadiercom_crossfeeding_all,abundance,community_id=False,c
         
     if fluxorrate=="flux":
         steadiercom_crossfeeding_all_copy.loc[:,"mass_rate"] = steadiercom_crossfeeding_all_copy.apply(mmol2g,fluxorrate=fluxorrate,axis=1)
-        
-                #steadiercom_crossfeeding_all_copy = steadiercom_crossfeeding_all_copy[steadiercom_crossfeeding_all_copy.compound.isin(met2superclass_dict.keys())].copy()
-                #steadiercom_crossfeeding_all_copy.loc[:,"super_class"]= steadiercom_crossfeeding_all_copy.apply(lambda x:met2superclass_dict[x.compound],axis=1).copy()
+
     steadiercom_crossfeeding_all_copy.loc[:,"super_class"]= steadiercom_crossfeeding_all_copy.apply(assign_super_class,axis=1).copy()
     
     
