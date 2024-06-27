@@ -3,8 +3,12 @@ import pandas as pd
 import reframed
 import numpy as np
 import translation_dicts
+import general_functions as general_func
+
 
 model_uni = reframed.load_cbmodel("../input/universe_bacteria.xml")
+all_mags_paper = general_func.read_allmags_data()
+
 
 def mmol2g(row,fluxorrate="flux"):
     molweight = Formula(model_uni.metabolites[row.compound].metadata["FORMULA"]).mass
@@ -61,8 +65,6 @@ def data_ReceiverOrDonor(steadiercom_crossfeeding_all_copy,ReceiverOrDonor,phyla
             data_receiverOrdonor[(phylum_receiver_or_donor,receiver_or_donor_index,receiver_or_donor)]={}
             data_receiverOrdonor[(phylum_receiver_or_donor,receiver_or_donor_index,receiver_or_donor)][super_class] = value
     data_receiverOrdonor_df = pd.DataFrame(data_receiverOrdonor).fillna(0)
-    
-    
     
     ## Add data for missing members:
 

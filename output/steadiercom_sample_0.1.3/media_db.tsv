@@ -27,7 +27,6 @@ SC1_C	SynCon1 on Cellulose	ca2	Calcium
 SC1_C	SynCon1 on Cellulose	cobalt2	Co2+
 SC1_C	SynCon1 on Cellulose	thm	Thiamin
 SC1_C	SynCon1 on Cellulose	ascb__L	L-Ascorbate
-SC1_C	SynCon1 on Cellulose	glc__D	D-Glucose
 SC1_C	SynCon1 on Cellulose	cellb	Cellobiose
 SC1_C	SynCon1 on Cellulose	cell3	Cellulose (n=3 repeating units)
 SC1_C	SynCon1 on Cellulose	cell4	Cellulose (n=4 repeating units)
@@ -60,7 +59,6 @@ SC2_C	SynCon2 on Cellulose	nac	Nicotinate
 SC2_C	SynCon2 on Cellulose	ca2	Calcium
 SC2_C	SynCon2 on Cellulose	cobalt2	Co2+
 SC2_C	SynCon2 on Cellulose	thm	Thiamin
-SC2_C	SynCon2 on Cellulose	glc__D	D-Glucose
 SC2_C	SynCon2 on Cellulose	cellb	Cellobiose
 SC2_C	SynCon2 on Cellulose	cell3	Cellulose (n=3 repeating units)
 SC2_C	SynCon2 on Cellulose	cell4	Cellulose (n=4 repeating units)
@@ -93,7 +91,6 @@ SC1_X	SynCon1 on Xylan	ca2	Calcium
 SC1_X	SynCon1 on Xylan	cobalt2	Co2+
 SC1_X	SynCon1 on Xylan	thm	Thiamin
 SC1_X	SynCon1 on Xylan	ascb__L	L-Ascorbate
-SC1_X	SynCon1 on Xylan	xyl__D	D-Xylose
 SC1_X	SynCon1 on Xylan	xylb	Xylobiose
 SC1_X	SynCon1 on Xylan	xyl3	Xylotriose
 SC1_X	SynCon1 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
@@ -126,7 +123,6 @@ SC2_X	SynCon2 on Xylan	nac	Nicotinate
 SC2_X	SynCon2 on Xylan	ca2	Calcium
 SC2_X	SynCon2 on Xylan	cobalt2	Co2+
 SC2_X	SynCon2 on Xylan	thm	Thiamin
-SC2_X	SynCon2 on Xylan	xyl__D	D-Xylose
 SC2_X	SynCon2 on Xylan	xylb	Xylobiose
 SC2_X	SynCon2 on Xylan	xyl3	Xylotriose
 SC2_X	SynCon2 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
