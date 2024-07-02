@@ -26,7 +26,7 @@ phyla_lut, unique_phyla, phylum_colors = color_func.phylum_colors_func()
 all_mags_paper = general_func.read_allmags_data()
 cmap = colormaps.get("gist_ncar")
 
-def circos_plot_process_data(steadiercom_samples,community_id=False,min_flux=0,compound_type=False,min_frequency=0):
+def circos_plot_process_data(steadiercom_samples,all_mags_paper =all_mags_paper,community_id=False,min_flux=0,compound_type=False,min_frequency=0):
     
     # Add super_class and mass_rate*frequency
     steadiercom_samples_preprocessed = preprocessing_func(steadiercom_samples)
@@ -49,7 +49,7 @@ def circos_plot_process_data(steadiercom_samples,community_id=False,min_flux=0,c
     # remove all data related to environment
     steadiercom_samples_preprocessed_copy = steadiercom_samples_preprocessed_copy[(steadiercom_samples_preprocessed_copy.donor!="environment") & (steadiercom_samples_preprocessed_copy.receiver!="environment")]
     
-    # Find maximum value 
+    # filter out lower frequencies 
     steadiercom_samples_preprocessed_copy = steadiercom_samples_preprocessed_copy[steadiercom_samples_preprocessed_copy.frequency>min_frequency].copy()
     
     ## Production data (add superclass and convert to mass_rate)
@@ -131,9 +131,16 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
     return fig,mag2color
 
 
-def data_uptake_prod(steadiercom_samples,community_id=False,compound_type=False,only_media=False):
+def data_uptake_prod(steadiercom_samples,all_mags_paper=all_mags_paper,community_id=False,compound_type=False,only_media=False,min_frequency=0.0):
+    
     
     steadiercom_samples_preprocessed = preprocessing_func(steadiercom_samples)
+    
+    
+    
+    # filter out lower frequencies 
+    steadiercom_samples_preprocessed = steadiercom_samples_preprocessed[steadiercom_samples_preprocessed.frequency>min_frequency].copy()
+    
     
     ## Process input data (add superclass and convert to mass_rate)
     

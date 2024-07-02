@@ -145,9 +145,9 @@ def data_for_links(steadiercom_crossfeeding_only,members,min_flux=0):
 
         member_range[donor]["upper_donor"].append(upper_donor_i)
         
-
+        link.append((donor,1-lower_donor_i,1-upper_donor_i))   
         link.append((receiver,lower_receiver_i,upper_receiver_i))
-        link.append((donor,1-lower_donor_i,1-upper_donor_i))        
+     
 
         link.append(row.compound)
         links.append(link)

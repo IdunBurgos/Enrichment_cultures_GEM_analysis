@@ -42,10 +42,16 @@ def EGC_identifier(model,print_results=False):
             else:
                 continue
                 
-
+        for rxn in model_copy.reactions:
+            if model_copy.reactions[rxn].lb<0:
+                model_copy.reactions[rxn].lb=-1000
+            if model_copy.reactions[rxn].ub>0:
+                model_copy.reactions[rxn].ub=1000
+                
         # Set boundary to avoid infeasible problem
         model_copy.reactions[row["rxn_ID "]].lb=0
         model_copy.reactions[row["rxn_ID "]].ub=1000
+        
 
         # Set environment to empty
         env_empty = reframed.Environment.empty(model_copy)

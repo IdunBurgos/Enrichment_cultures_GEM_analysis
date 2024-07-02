@@ -10,11 +10,11 @@ import seaborn as sns
 from matplotlib.pyplot import gcf
 import matplotlib.pyplot as plt 
 
-import functions.colors_MAGs
-import functions.general_functions as general_func
+import colors_MAGs
+import general_functions as general_func
 
 
-chebi_lut,chebi_interesting,chebi_colors_ser = functions.colors_MAGs.chebi_rxn_color_func()
+chebi_lut,chebi_interesting,chebi_colors_ser = colors_MAGs.chebi_rxn_color_func()
 
 def MAG_MAG_clustermap_data(GEMs_dict,only_exchange_rxns=False):
     """

@@ -8,18 +8,18 @@ set -eux
 
 
 # For each MAG in directory
-for filename in ./output/GEMs/GEMs_adapt/*.xml
+for filename in ../output/GEMs/GEMs_intermediate/GEMs_ACt2r/*.xml
 do
 
-    MAG=${filename:25:-4}"\t"
+    MAG=${filename:44:-4}"\t"
     
     
     # If MAG is among the 99% most abundant
-    if grep -xq $MAG ./output/relevant_MAGs_99.txt
+    if grep -xq $MAG ../output/relevant_MAGs_99.txt
     then
     
         # Run carveme
-        community_id=$(grep $MAG ./output/MAG2community_id.tsv | cut  -f2)  
-        gapfill ./output/GEMs/GEMs_adapt/${filename:25:-4}.xml -o ./output/GEMs/GEMs_adapt_media/${filename:25:-4}.xml -m ${community_id} --mediadb ./output/gapfill_media/gapfill_media.tsv --fbc2 --verbose 
+        community_id=$(grep $MAG ../output/MAG2community_id.tsv | cut  -f2)  
+        gapfill ../output/GEMs/GEMs_intermediate/GEMs_ACt2r/${filename:44:-4}.xml -o ../output/GEMs/GEMs_final/${filename:44:-4}.xml -m ${community_id} --mediadb ../output/gapfill_media/gapfill_media.tsv --fbc2 --verbose 
     fi
 done
