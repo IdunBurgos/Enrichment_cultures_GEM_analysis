@@ -8,7 +8,7 @@ SC1_C	SynCon1 on Cellulose	ribflv	Riboflavin C17H20N4O6	1000.0
 SC1_C	SynCon1 on Cellulose	cl	Chloride	1000.0
 SC1_C	SynCon1 on Cellulose	nh4	Ammonium	1000.0
 SC1_C	SynCon1 on Cellulose	btn	Biotin	1000.0
-SC1_C	SynCon1 on Cellulose	pydxn	Pyridoxine	1000.0
+SC1_C	SynCon1 on Cellulose	pydxn	Pyridoxine	0.01
 SC1_C	SynCon1 on Cellulose	ni2	Nickel	1000.0
 SC1_C	SynCon1 on Cellulose	h2o	H2O H2O	1000.0
 SC1_C	SynCon1 on Cellulose	pi	Phosphate	1000.0
@@ -18,7 +18,7 @@ SC1_C	SynCon1 on Cellulose	pnto__R	(R)-Pantothenate	1000.0
 SC1_C	SynCon1 on Cellulose	cu2	Copper	1000.0
 SC1_C	SynCon1 on Cellulose	na1	Sodium	1000.0
 SC1_C	SynCon1 on Cellulose	mobd	Molybdate	1000.0
-SC1_C	SynCon1 on Cellulose	cys__L	L-Cysteine	0.001
+SC1_C	SynCon1 on Cellulose	cys__L	L-Cysteine	0.01
 SC1_C	SynCon1 on Cellulose	mg2	Magnesium	1000.0
 SC1_C	SynCon1 on Cellulose	4abz	4-Aminobenzoate	1000.0
 SC1_C	SynCon1 on Cellulose	h	H+	1000.0
@@ -26,11 +26,11 @@ SC1_C	SynCon1 on Cellulose	nac	Nicotinate	1000.0
 SC1_C	SynCon1 on Cellulose	ca2	Calcium	1000.0
 SC1_C	SynCon1 on Cellulose	cobalt2	Co2+	1000.0
 SC1_C	SynCon1 on Cellulose	thm	Thiamin	1000.0
-SC1_C	SynCon1 on Cellulose	ascb__L	L-Ascorbate	0.001
-SC1_C	SynCon1 on Cellulose	cellb	Cellobiose	0.05
-SC1_C	SynCon1 on Cellulose	cell3	Cellulose (n=3 repeating units)	0.03333333333333333
-SC1_C	SynCon1 on Cellulose	cell4	Cellulose (n=4 repeating units)	0.025
-SC1_C	SynCon1 on Cellulose	cell5	Cellulose (n=5 repeating units)	0.02
+SC1_C	SynCon1 on Cellulose	ascb__L	L-Ascorbate	0.01
+SC1_C	SynCon1 on Cellulose	cellb	Cellobiose	0.15
+SC1_C	SynCon1 on Cellulose	cell3	Cellulose (n=3 repeating units)	0.1
+SC1_C	SynCon1 on Cellulose	cell4	Cellulose (n=4 repeating units)	0.075
+SC1_C	SynCon1 on Cellulose	cell5	Cellulose (n=5 repeating units)	0.06
 SC2_C	SynCon2 on Cellulose	zn2	Zinc	1000.0
 SC2_C	SynCon2 on Cellulose	mn2	Manganese	1000.0
 SC2_C	SynCon2 on Cellulose	fe3	Iron (Fe3+)	1000.0
@@ -41,7 +41,7 @@ SC2_C	SynCon2 on Cellulose	ribflv	Riboflavin C17H20N4O6	1000.0
 SC2_C	SynCon2 on Cellulose	cl	Chloride	1000.0
 SC2_C	SynCon2 on Cellulose	nh4	Ammonium	1000.0
 SC2_C	SynCon2 on Cellulose	btn	Biotin	1000.0
-SC2_C	SynCon2 on Cellulose	pydxn	Pyridoxine	1000.0
+SC2_C	SynCon2 on Cellulose	pydxn	Pyridoxine	0.01
 SC2_C	SynCon2 on Cellulose	ni2	Nickel	1000.0
 SC2_C	SynCon2 on Cellulose	h2o	H2O H2O	1000.0
 SC2_C	SynCon2 on Cellulose	pi	Phosphate	1000.0
@@ -51,7 +51,7 @@ SC2_C	SynCon2 on Cellulose	pnto__R	(R)-Pantothenate	1000.0
 SC2_C	SynCon2 on Cellulose	cu2	Copper	1000.0
 SC2_C	SynCon2 on Cellulose	na1	Sodium	1000.0
 SC2_C	SynCon2 on Cellulose	mobd	Molybdate	1000.0
-SC2_C	SynCon2 on Cellulose	cys__L	L-Cysteine	0.001
+SC2_C	SynCon2 on Cellulose	cys__L	L-Cysteine	0.01
 SC2_C	SynCon2 on Cellulose	mg2	Magnesium	1000.0
 SC2_C	SynCon2 on Cellulose	4abz	4-Aminobenzoate	1000.0
 SC2_C	SynCon2 on Cellulose	h	H+	1000.0
@@ -59,10 +59,10 @@ SC2_C	SynCon2 on Cellulose	nac	Nicotinate	1000.0
 SC2_C	SynCon2 on Cellulose	ca2	Calcium	1000.0
 SC2_C	SynCon2 on Cellulose	cobalt2	Co2+	1000.0
 SC2_C	SynCon2 on Cellulose	thm	Thiamin	1000.0
-SC2_C	SynCon2 on Cellulose	cellb	Cellobiose	0.05
-SC2_C	SynCon2 on Cellulose	cell3	Cellulose (n=3 repeating units)	0.03333333333333333
-SC2_C	SynCon2 on Cellulose	cell4	Cellulose (n=4 repeating units)	0.025
-SC2_C	SynCon2 on Cellulose	cell5	Cellulose (n=5 repeating units)	0.02
+SC2_C	SynCon2 on Cellulose	cellb	Cellobiose	0.15
+SC2_C	SynCon2 on Cellulose	cell3	Cellulose (n=3 repeating units)	0.1
+SC2_C	SynCon2 on Cellulose	cell4	Cellulose (n=4 repeating units)	0.075
+SC2_C	SynCon2 on Cellulose	cell5	Cellulose (n=5 repeating units)	0.06
 SC1_X	SynCon1 on Xylan	zn2	Zinc	1000.0
 SC1_X	SynCon1 on Xylan	mn2	Manganese	1000.0
 SC1_X	SynCon1 on Xylan	fe3	Iron (Fe3+)	1000.0
@@ -72,7 +72,7 @@ SC1_X	SynCon1 on Xylan	ribflv	Riboflavin C17H20N4O6	1000.0
 SC1_X	SynCon1 on Xylan	cl	Chloride	1000.0
 SC1_X	SynCon1 on Xylan	nh4	Ammonium	1000.0
 SC1_X	SynCon1 on Xylan	btn	Biotin	1000.0
-SC1_X	SynCon1 on Xylan	pydxn	Pyridoxine	1000.0
+SC1_X	SynCon1 on Xylan	pydxn	Pyridoxine	1e-05
 SC1_X	SynCon1 on Xylan	ni2	Nickel	1000.0
 SC1_X	SynCon1 on Xylan	h2o	H2O H2O	1000.0
 SC1_X	SynCon1 on Xylan	pi	Phosphate	1000.0
@@ -82,7 +82,7 @@ SC1_X	SynCon1 on Xylan	pnto__R	(R)-Pantothenate	1000.0
 SC1_X	SynCon1 on Xylan	cu2	Copper	1000.0
 SC1_X	SynCon1 on Xylan	na1	Sodium	1000.0
 SC1_X	SynCon1 on Xylan	mobd	Molybdate	1000.0
-SC1_X	SynCon1 on Xylan	cys__L	L-Cysteine	0.001
+SC1_X	SynCon1 on Xylan	cys__L	L-Cysteine	0.01
 SC1_X	SynCon1 on Xylan	mg2	Magnesium	1000.0
 SC1_X	SynCon1 on Xylan	4abz	4-Aminobenzoate	1000.0
 SC1_X	SynCon1 on Xylan	h	H+	1000.0
@@ -90,11 +90,10 @@ SC1_X	SynCon1 on Xylan	nac	Nicotinate	1000.0
 SC1_X	SynCon1 on Xylan	ca2	Calcium	1000.0
 SC1_X	SynCon1 on Xylan	cobalt2	Co2+	1000.0
 SC1_X	SynCon1 on Xylan	thm	Thiamin	1000.0
-SC1_X	SynCon1 on Xylan	ascb__L	L-Ascorbate	0.001
-SC1_X	SynCon1 on Xylan	xylb	Xylobiose	0.06
-SC1_X	SynCon1 on Xylan	xyl3	Xylotriose	0.04
-SC1_X	SynCon1 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)	0.023076923076923078
-SC1_X	SynCon1 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)	0.011538461538461539
+SC1_X	SynCon1 on Xylan	ascb__L	L-Ascorbate	1e-05
+SC1_X	SynCon1 on Xylan	xylb	Xylobiose	0.24
+SC1_X	SynCon1 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)	0.09230769230769231
+SC1_X	SynCon1 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)	0.046153846153846156
 SC2_X	SynCon2 on Xylan	zn2	Zinc	1000.0
 SC2_X	SynCon2 on Xylan	mn2	Manganese	1000.0
 SC2_X	SynCon2 on Xylan	fe3	Iron (Fe3+)	1000.0
@@ -105,7 +104,7 @@ SC2_X	SynCon2 on Xylan	ribflv	Riboflavin C17H20N4O6	1000.0
 SC2_X	SynCon2 on Xylan	cl	Chloride	1000.0
 SC2_X	SynCon2 on Xylan	nh4	Ammonium	1000.0
 SC2_X	SynCon2 on Xylan	btn	Biotin	1000.0
-SC2_X	SynCon2 on Xylan	pydxn	Pyridoxine	1000.0
+SC2_X	SynCon2 on Xylan	pydxn	Pyridoxine	0.01
 SC2_X	SynCon2 on Xylan	ni2	Nickel	1000.0
 SC2_X	SynCon2 on Xylan	h2o	H2O H2O	1000.0
 SC2_X	SynCon2 on Xylan	pi	Phosphate	1000.0
@@ -115,7 +114,7 @@ SC2_X	SynCon2 on Xylan	pnto__R	(R)-Pantothenate	1000.0
 SC2_X	SynCon2 on Xylan	cu2	Copper	1000.0
 SC2_X	SynCon2 on Xylan	na1	Sodium	1000.0
 SC2_X	SynCon2 on Xylan	mobd	Molybdate	1000.0
-SC2_X	SynCon2 on Xylan	cys__L	L-Cysteine	0.001
+SC2_X	SynCon2 on Xylan	cys__L	L-Cysteine	0.01
 SC2_X	SynCon2 on Xylan	mg2	Magnesium	1000.0
 SC2_X	SynCon2 on Xylan	4abz	4-Aminobenzoate	1000.0
 SC2_X	SynCon2 on Xylan	h	H+	1000.0
@@ -123,7 +122,6 @@ SC2_X	SynCon2 on Xylan	nac	Nicotinate	1000.0
 SC2_X	SynCon2 on Xylan	ca2	Calcium	1000.0
 SC2_X	SynCon2 on Xylan	cobalt2	Co2+	1000.0
 SC2_X	SynCon2 on Xylan	thm	Thiamin	1000.0
-SC2_X	SynCon2 on Xylan	xylb	Xylobiose	0.06
-SC2_X	SynCon2 on Xylan	xyl3	Xylotriose	0.04
-SC2_X	SynCon2 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)	0.023076923076923078
-SC2_X	SynCon2 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)	0.011538461538461539
+SC2_X	SynCon2 on Xylan	xylb	Xylobiose	0.24
+SC2_X	SynCon2 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)	0.09230769230769231
+SC2_X	SynCon2 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)	0.046153846153846156

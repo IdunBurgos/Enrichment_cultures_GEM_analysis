@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "CH14-bin.0.faa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "./output/Caproicproducens_CH14_bin_0/CH14-bin.0.faa",
+  "number-of-letters": 2747724,
+  "number-of-sequences": 12857,
+  "last-updated": "2024-08-14T14:17:00",
+  "number-of-volumes": 1,
+  "bytes-total": 4033497,
+  "bytes-to-cache": 2863582,
+  "files": [
+    "CH14-bin.0.faa.pdb",
+    "CH14-bin.0.faa.phr",
+    "CH14-bin.0.faa.pin",
+    "CH14-bin.0.faa.pot",
+    "CH14-bin.0.faa.psq",
+    "CH14-bin.0.faa.ptf",
+    "CH14-bin.0.faa.pto"
+  ]
+}

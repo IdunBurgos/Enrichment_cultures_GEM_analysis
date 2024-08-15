@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from pycirclize import Circos
 import reframed
 import pandas as pd
+from collections import OrderedDict
 
 
 from steadiercom_samples_processing import preprocessing_func, data_ReceiverOrDonor,data_community_abundance_func,data_for_links
@@ -24,7 +25,31 @@ chebi_lut["other"] = "#eaeaea"
 phyla_lut, unique_phyla, phylum_colors = color_func.phylum_colors_func() 
 
 all_mags_paper = general_func.read_allmags_data()
+
+
+
+all_mags_paper = all_mags_paper[all_mags_paper.new_coverage>1]
+all_mags_paper["Genus"] = all_mags_paper.apply(lambda row: row.Genus if isinstance(row.Genus,str) else "f_"+row.Family,axis=1)
+all_mags_paper = all_mags_paper.sort_values(["Domain","Phylum","Class","Order","Family","Species"])
+
+
+def mag2genus(all_mags_paper):  
+    
+    genus_groups = all_mags_paper.groupby("Genus").groups
+    mag2genus_dict = {mag:genus for genus,mags in genus_groups.items() for mag in mags}
+    
+    return genus_groups,mag2genus_dict
+
+
+genera = all_mags_paper.Genus.unique()
+genus_groups,mag2genus_dict = mag2genus(all_mags_paper)
+all_mags_paper = all_mags_paper.sort_values("new_coverage",ascending=False)
+
 cmap = colormaps.get("gist_ncar")
+color_values = np.arange(0.05,1.0,0.95/len(genus_groups))
+cmap_color = [cmap(color_value) for color_value in color_values]
+genus2color_dict = OrderedDict(zip(genera,cmap_color))
+
 
 def circos_plot_process_data(steadiercom_samples,all_mags_paper =all_mags_paper,community_id=False,min_flux=0,compound_type=False,min_frequency=0):
     
@@ -58,7 +83,7 @@ def circos_plot_process_data(steadiercom_samples,all_mags_paper =all_mags_paper,
         steadiercom_crossfeeding = steadiercom_samples_preprocessed_copy[steadiercom_samples_preprocessed_copy.compound.isin(mets_interesting)].copy()
     else:
         steadiercom_crossfeeding = steadiercom_samples_preprocessed_copy.copy()
-    
+    steadiercom_crossfeeding = steadiercom_crossfeeding.groupby(["donor","receiver","super_class"]).sum()["mass_rate*frequency"].reset_index()
     # Sort crossfeeding data according to the 
     steadiercom_crossfeeding.donor = steadiercom_crossfeeding.donor.astype("category")
     steadiercom_crossfeeding.donor = steadiercom_crossfeeding.donor.cat.set_categories(members)
@@ -69,6 +94,9 @@ def circos_plot_process_data(steadiercom_samples,all_mags_paper =all_mags_paper,
 
     links = data_for_links(steadiercom_crossfeeding,members,min_flux=min_flux)
     return links,members
+
+
+
 
 
 
@@ -85,12 +113,17 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
     
     index_color = np.arange(0.1,1.0,0.9/len(circos.sectors))
     
+    genera_specific = []
+    
     for sector in circos.sectors:
         
         # Add color for group
         track = sector.add_track((95, 100))
         
-        track.axis(fc=cmap(index_color[i]))
+        #track.axis(fc=cmap(index_color[i]))
+        track.axis(fc=genus2color_dict[mag2genus_dict[sector.name]])
+        genera_specific.append(mag2genus_dict[sector.name])
+        
         i+=1
 
         
@@ -98,9 +131,9 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
 
     for link in links:
 
-        if link[2] in chebi_colors_ser.keys():
-            color = chebi_colors_ser[link[2]]
-            class_ = chebi_interesting.loc[link[2],"self defined super class"]
+        if link[2]!= "other":
+            color = chebi_interesting[chebi_interesting["self defined super class"]==link[2]].iloc[0,-1]
+            class_ = link[2]
         else:
             color = "#eaeaea"
             class_ = "other" 
@@ -119,17 +152,31 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
     line_handles = [Patch(color=color_code[0], label=color_code[1],alpha=0.8) for color_code in colors_classes]
     line_legend = circos.ax.legend(
         handles=line_handles,
-        bbox_to_anchor=(0.93, 1.02),
+        bbox_to_anchor=(0.8, 1.05),
         fontsize=fontsize,
         title="COMPOUNDS",
         handlelength=2,
     )
+    
+    
+    # Legend for genus
+
+    genus_handles = [Patch(color=color, label=genus) for genus, color in genus2color_dict.items() if genus in genera_specific]
+    genus_legend = circos.ax.legend(
+        handles=genus_handles,
+        bbox_to_anchor=(-0.05, 1.05),  # Adjust the position as needed
+        fontsize=fontsize,
+        title="GENUS",
+        handlelength=2,
+    )
+    circos.ax.add_artist(line_legend)
+    circos.ax.add_artist(genus_legend)
+    
     plt.title(title,fontsize=30)
     
     mag2color= dict(zip(members,index_color))
     
     return fig,mag2color
-
 
 def data_uptake_prod(steadiercom_samples,all_mags_paper=all_mags_paper,community_id=False,compound_type=False,only_media=False,min_frequency=0.0):
     
@@ -207,13 +254,13 @@ def plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,title=No
     index_color = np.arange(0.1,1.0,0.9/len(xticks_labels))
     
     axs[2].set_yticks([])
-
-
     axs[2].set_xticks(xticks)
+    
+    genera_specific = []
     for i,x in enumerate(xticks_labels):
-        patch=Rectangle((i, 0),1, 1, color=cmap(index_color[i]))
-        
-        
+        #patch=Rectangle((i, 0),1, 1, color=cmap(index_color[i]))
+        patch=Rectangle((i, 0),1, 1, color=genus2color_dict[mag2genus_dict[x]])
+        genera_specific.append(mag2genus_dict[x])
 
         axs[2].add_patch(patch)
 
@@ -233,10 +280,17 @@ def plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,title=No
     axs[3].set_xlabel('')
     axs[3].set_title("Compound consumed \n [g/(h*g$_{bio}$)]",x=-.1,y=0.5,fontsize=15)
 
-
+    
+    # Custom legend for compounds
     custom_lines = [Patch(color=chebi_lut[super_class], label=super_class,alpha=0.8) for super_class in  pd.concat([data_donor_df,data_receiver_df]).index.unique()]
+    fig.legend(custom_lines,pd.concat([data_donor_df,data_receiver_df]).index.unique(), fontsize=15, loc='upper left', bbox_to_anchor=(0.9, 0.8), title="COMPOUNDS")
 
-    plt.legend(custom_lines, pd.concat([data_donor_df,data_receiver_df]).index.unique(),fontsize=15,loc= (1.01,1.5))
+    # Custom legend for genera (example, replace with your actual genus data)  
+    genus_labels = [genus for genus in genus2color_dict.keys() if genus in genera_specific]
+    genus_handles = [Patch(color=genus2color_dict[genus], label=genus) for genus in genus_labels] 
+    genus_legend = fig.legend(genus_handles, genus_labels, fontsize=15, loc='upper left', bbox_to_anchor=(0.9, 0.5), title="GENUS")    
+    
+    
     fig.suptitle(title,fontsize=30)
     plt.show()
     

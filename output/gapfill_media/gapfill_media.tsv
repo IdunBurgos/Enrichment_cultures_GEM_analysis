@@ -1,484 +1,468 @@
 medium	description	compound	name
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cell5	Cellulose (n=5 repeating units)
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	lac__L	L-Lactate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	acglu	N-Acetyl-L-glutamate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	nh4	Ammonium
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	na1	Sodium
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ascb__L	L-Ascorbate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2	Hydrogen
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	pheme	Protoheme C34H30FeN4O4
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cys__L	L-Cysteine
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	acald	Acetaldehyde
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	thm	Thiamin
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	mn2	Manganese
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	g3pg	Glycerophosphoglycerol
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ura	Uracil
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	h	H+
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cu2	Copper
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	fe3	Iron (Fe3+)
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	zn2	Zinc
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	pacald	Phenylacetaldehyde
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	gua	Guanine
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	4hba	4-Hydroxy-benzyl alcohol
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	pydxn	Pyridoxine
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	mobd	Molybdate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ribflv	Riboflavin C17H20N4O6
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cellb	Cellobiose
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ppap	Propanoyl phosphate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ca2	Calcium
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	nac	Nicotinate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	fe2	Fe2+ mitochondria
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	pnto__R	(R)-Pantothenate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	mal__L	L-Malate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	so4	Sulfate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ni2	Nickel
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	glc__D	D-Glucose
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	pi	Phosphate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2o	H2O H2O
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ac	Acetate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	ocdcea	Octadecenoate (n-C18:1)
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2s	Hydrogen sulfide
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	spmd	Spermidine
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	fol	Folate
 CD_A	Media + produced compounds in Compost and Digestate on Avicel	cell3	Cellulose (n=3 repeating units)
 CD_A	Media + produced compounds in Compost and Digestate on Avicel	cell4	Cellulose (n=4 repeating units)
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	pnto__R	(R)-Pantothenate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	nac	Nicotinate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cellb	Cellobiose
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ni2	Nickel
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cu2	Copper
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ascb__L	L-Ascorbate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ac	Acetate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	mn2	Manganese
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	mobd	Molybdate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	4hba	4-Hydroxy-benzyl alcohol
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	acald	Acetaldehyde
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	thym	Thymine C5H6N2O2
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2s	Hydrogen sulfide
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	pheme	Protoheme C34H30FeN4O4
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ribflv	Riboflavin C17H20N4O6
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	h	H+
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	gua	Guanine
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cl	Chloride
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	inost	Myo-Inositol
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	fol	Folate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	glyc3p	Glycerol 3-phosphate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	acglu	N-Acetyl-L-glutamate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cell5	Cellulose (n=5 repeating units)
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ocdcea	Octadecenoate (n-C18:1)
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	btn	Biotin
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	gcald	Glycolaldehyde
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ca2	Calcium
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	na1	Sodium
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	lac__L	L-Lactate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	g3pg	Glycerophosphoglycerol
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	so4	Sulfate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2o	H2O H2O
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	glyc	Glycerol
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	h2	Hydrogen
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	4abz	4-Aminobenzoate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ura	Uracil
 CD_A	Media + produced compounds in Compost and Digestate on Avicel	co2	CO2 CO2
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	mal__L	L-Malate
 CD_A	Media + produced compounds in Compost and Digestate on Avicel	mg2	Magnesium
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	zn2	Zinc
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	fe2	Fe2+ mitochondria
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	thm	Thiamin
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	pi	Phosphate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	ppap	Propanoyl phosphate
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	pacald	Phenylacetaldehyde
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	nh4	Ammonium
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cobalt2	Co2+
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	spmd	Spermidine
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	cys__L	L-Cysteine
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	fe3	Iron (Fe3+)
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	thym	Thymine C5H6N2O2
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	glyc3p	Glycerol 3-phosphate
 CD_A	Media + produced compounds in Compost and Digestate on Avicel	k	Potassium
-CD_A	Media + produced compounds in Compost and Digestate on Avicel	pydxn	Pyridoxine
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	btn	Biotin
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	4abz	4-Aminobenzoate
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cl	Chloride
+CD_A	Media + produced compounds in Compost and Digestate on Avicel	cobalt2	Co2+
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cell5	Cellulose (n=5 repeating units)
+CD_P	Media + produced compounds in Compost and Digestate on PASC	acglu	N-Acetyl-L-glutamate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	nh4	Ammonium
+CD_P	Media + produced compounds in Compost and Digestate on PASC	na1	Sodium
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ascb__L	L-Ascorbate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	15dap	1,5-Diaminopentane
+CD_P	Media + produced compounds in Compost and Digestate on PASC	co	Carbon monoxide
+CD_P	Media + produced compounds in Compost and Digestate on PASC	bz	Benzoate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cys__L	L-Cysteine
+CD_P	Media + produced compounds in Compost and Digestate on PASC	pheme	Protoheme C34H30FeN4O4
+CD_P	Media + produced compounds in Compost and Digestate on PASC	acald	Acetaldehyde
+CD_P	Media + produced compounds in Compost and Digestate on PASC	thm	Thiamin
+CD_P	Media + produced compounds in Compost and Digestate on PASC	mn2	Manganese
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ura	Uracil
+CD_P	Media + produced compounds in Compost and Digestate on PASC	h	H+
+CD_P	Media + produced compounds in Compost and Digestate on PASC	glyclt	Glycolate C2H3O3
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cu2	Copper
+CD_P	Media + produced compounds in Compost and Digestate on PASC	fe3	Iron (Fe3+)
+CD_P	Media + produced compounds in Compost and Digestate on PASC	zn2	Zinc
+CD_P	Media + produced compounds in Compost and Digestate on PASC	gua	Guanine
+CD_P	Media + produced compounds in Compost and Digestate on PASC	5drib	5'-deoxyribose
+CD_P	Media + produced compounds in Compost and Digestate on PASC	pydxn	Pyridoxine
+CD_P	Media + produced compounds in Compost and Digestate on PASC	mobd	Molybdate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ribflv	Riboflavin C17H20N4O6
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cellb	Cellobiose
+CD_P	Media + produced compounds in Compost and Digestate on PASC	urea	Urea CH4N2O
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ca2	Calcium
+CD_P	Media + produced compounds in Compost and Digestate on PASC	nac	Nicotinate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	fe2	Fe2+ mitochondria
+CD_P	Media + produced compounds in Compost and Digestate on PASC	pnto__R	(R)-Pantothenate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ibt	Isobutyrate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	alaala	D-Alanyl-D-alanine
+CD_P	Media + produced compounds in Compost and Digestate on PASC	so4	Sulfate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ni2	Nickel
+CD_P	Media + produced compounds in Compost and Digestate on PASC	glc__D	D-Glucose
+CD_P	Media + produced compounds in Compost and Digestate on PASC	pi	Phosphate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	pta	Pentanoate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	h2o	H2O H2O
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ac	Acetate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ocdcea	Octadecenoate (n-C18:1)
+CD_P	Media + produced compounds in Compost and Digestate on PASC	h2s	Hydrogen sulfide
+CD_P	Media + produced compounds in Compost and Digestate on PASC	spmd	Spermidine
+CD_P	Media + produced compounds in Compost and Digestate on PASC	fol	Folate
 CD_P	Media + produced compounds in Compost and Digestate on PASC	cell3	Cellulose (n=3 repeating units)
 CD_P	Media + produced compounds in Compost and Digestate on PASC	cell4	Cellulose (n=4 repeating units)
-CD_P	Media + produced compounds in Compost and Digestate on PASC	pnto__R	(R)-Pantothenate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	nac	Nicotinate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cellb	Cellobiose
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ni2	Nickel
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cu2	Copper
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ascb__L	L-Ascorbate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ac	Acetate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	5drib	5'-deoxyribose
-CD_P	Media + produced compounds in Compost and Digestate on PASC	mn2	Manganese
-CD_P	Media + produced compounds in Compost and Digestate on PASC	mobd	Molybdate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	but	Butyrate (n-C4:0)
-CD_P	Media + produced compounds in Compost and Digestate on PASC	acald	Acetaldehyde
-CD_P	Media + produced compounds in Compost and Digestate on PASC	thym	Thymine C5H6N2O2
-CD_P	Media + produced compounds in Compost and Digestate on PASC	h2s	Hydrogen sulfide
-CD_P	Media + produced compounds in Compost and Digestate on PASC	pheme	Protoheme C34H30FeN4O4
-CD_P	Media + produced compounds in Compost and Digestate on PASC	15dap	1,5-Diaminopentane
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ribflv	Riboflavin C17H20N4O6
-CD_P	Media + produced compounds in Compost and Digestate on PASC	h	H+
-CD_P	Media + produced compounds in Compost and Digestate on PASC	gua	Guanine
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cl	Chloride
-CD_P	Media + produced compounds in Compost and Digestate on PASC	fol	Folate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ibt	Isobutyrate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	urea	Urea CH4N2O
-CD_P	Media + produced compounds in Compost and Digestate on PASC	acglu	N-Acetyl-L-glutamate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cell5	Cellulose (n=5 repeating units)
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ocdcea	Octadecenoate (n-C18:1)
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ncam	Nicotinamide
-CD_P	Media + produced compounds in Compost and Digestate on PASC	glc__D	D-Glucose
-CD_P	Media + produced compounds in Compost and Digestate on PASC	btn	Biotin
-CD_P	Media + produced compounds in Compost and Digestate on PASC	gcald	Glycolaldehyde
-CD_P	Media + produced compounds in Compost and Digestate on PASC	bz	Benzoate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ca2	Calcium
-CD_P	Media + produced compounds in Compost and Digestate on PASC	na1	Sodium
-CD_P	Media + produced compounds in Compost and Digestate on PASC	so4	Sulfate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	h2o	H2O H2O
-CD_P	Media + produced compounds in Compost and Digestate on PASC	co	Carbon monoxide
-CD_P	Media + produced compounds in Compost and Digestate on PASC	glyc	Glycerol
-CD_P	Media + produced compounds in Compost and Digestate on PASC	4abz	4-Aminobenzoate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	pta	Pentanoate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	ura	Uracil
 CD_P	Media + produced compounds in Compost and Digestate on PASC	co2	CO2 CO2
 CD_P	Media + produced compounds in Compost and Digestate on PASC	mg2	Magnesium
-CD_P	Media + produced compounds in Compost and Digestate on PASC	zn2	Zinc
-CD_P	Media + produced compounds in Compost and Digestate on PASC	fe2	Fe2+ mitochondria
-CD_P	Media + produced compounds in Compost and Digestate on PASC	thm	Thiamin
-CD_P	Media + produced compounds in Compost and Digestate on PASC	pi	Phosphate
-CD_P	Media + produced compounds in Compost and Digestate on PASC	glyclt	Glycolate C2H3O3
-CD_P	Media + produced compounds in Compost and Digestate on PASC	nh4	Ammonium
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cobalt2	Co2+
-CD_P	Media + produced compounds in Compost and Digestate on PASC	spmd	Spermidine
-CD_P	Media + produced compounds in Compost and Digestate on PASC	cys__L	L-Cysteine
-CD_P	Media + produced compounds in Compost and Digestate on PASC	fe3	Iron (Fe3+)
+CD_P	Media + produced compounds in Compost and Digestate on PASC	thym	Thymine C5H6N2O2
 CD_P	Media + produced compounds in Compost and Digestate on PASC	k	Potassium
-CD_P	Media + produced compounds in Compost and Digestate on PASC	pydxn	Pyridoxine
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	pnto__R	(R)-Pantothenate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	nac	Nicotinate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ni2	Nickel
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	cu2	Copper
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ascb__L	L-Ascorbate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ac	Acetate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	mn2	Manganese
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	mobd	Molybdate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	xyl3	Xylotriose
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	4hba	4-Hydroxy-benzyl alcohol
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	but	Butyrate (n-C4:0)
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	acald	Acetaldehyde
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	thym	Thymine C5H6N2O2
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2s	Hydrogen sulfide
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	pheme	Protoheme C34H30FeN4O4
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ribflv	Riboflavin C17H20N4O6
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	h	H+
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	gua	Guanine
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	cl	Chloride
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	fol	Folate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ibt	Isobutyrate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	btn	Biotin
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ppa	Propionate (n-C3:0)
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	gcald	Glycolaldehyde
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ca2	Calcium
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	for	Formate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	na1	Sodium
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	so4	Sulfate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2o	H2O H2O
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	glyc	Glycerol
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2	Hydrogen
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	asp__D	D-Aspartate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	4abz	4-Aminobenzoate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	ura	Uracil
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	co2	CO2 CO2
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	mal__L	L-Malate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	man1p	D-Mannose 1-phosphate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	mg2	Magnesium
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	zn2	Zinc
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	fe2	Fe2+ mitochondria
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	thm	Thiamin
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	xyl__D	D-Xylose
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	pi	Phosphate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	etoh	Ethanol
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	nh4	Ammonium
+CD_P	Media + produced compounds in Compost and Digestate on PASC	btn	Biotin
+CD_P	Media + produced compounds in Compost and Digestate on PASC	ncam	Nicotinamide
+CD_P	Media + produced compounds in Compost and Digestate on PASC	4abz	4-Aminobenzoate
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cl	Chloride
+CD_P	Media + produced compounds in Compost and Digestate on PASC	cobalt2	Co2+
+CD_P	Media + produced compounds in Compost and Digestate on PASC	but	Butyrate (n-C4:0)
 CD_X	Media + produced compounds in Compost and Digestate on Xylan	xylb	Xylobiose
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	isocap	Isocaproate
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	cobalt2	Co2+
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	spmd	Spermidine
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	nh4	Ammonium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	na1	Sodium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ascb__L	L-Ascorbate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2	Hydrogen
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ppa	Propionate (n-C3:0)
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	pheme	Protoheme C34H30FeN4O4
 CD_X	Media + produced compounds in Compost and Digestate on Xylan	cys__L	L-Cysteine
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	acald	Acetaldehyde
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	thm	Thiamin
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	mn2	Manganese
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ura	Uracil
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	h	H+
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	cu2	Copper
 CD_X	Media + produced compounds in Compost and Digestate on Xylan	fe3	Iron (Fe3+)
-CD_X	Media + produced compounds in Compost and Digestate on Xylan	k	Potassium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	zn2	Zinc
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	gua	Guanine
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	4hba	4-Hydroxy-benzyl alcohol
 CD_X	Media + produced compounds in Compost and Digestate on Xylan	pydxn	Pyridoxine
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	mobd	Molybdate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ribflv	Riboflavin C17H20N4O6
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ca2	Calcium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	nac	Nicotinate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	isocap	Isocaproate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	fe2	Fe2+ mitochondria
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	pnto__R	(R)-Pantothenate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	mal__L	L-Malate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	so4	Sulfate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ibt	Isobutyrate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	xyl3	Xylotriose
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	xyl__D	D-Xylose
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	for	Formate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	man1p	D-Mannose 1-phosphate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ni2	Nickel
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	pi	Phosphate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2o	H2O H2O
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	ac	Acetate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	asp__D	D-Aspartate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	h2s	Hydrogen sulfide
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	etoh	Ethanol
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	spmd	Spermidine
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	fol	Folate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	co2	CO2 CO2
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	mg2	Magnesium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	thym	Thymine C5H6N2O2
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	k	Potassium
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	btn	Biotin
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	4abz	4-Aminobenzoate
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	cl	Chloride
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	cobalt2	Co2+
+CD_X	Media + produced compounds in Compost and Digestate on Xylan	but	Butyrate (n-C4:0)
+CM_A	Media + produced compounds in Cow manure on Avicel	cell5	Cellulose (n=5 repeating units)
+CM_A	Media + produced compounds in Cow manure on Avicel	lac__L	L-Lactate
+CM_A	Media + produced compounds in Cow manure on Avicel	acglu	N-Acetyl-L-glutamate
+CM_A	Media + produced compounds in Cow manure on Avicel	nh4	Ammonium
+CM_A	Media + produced compounds in Cow manure on Avicel	4abutn	4-Aminobutanal
+CM_A	Media + produced compounds in Cow manure on Avicel	na1	Sodium
+CM_A	Media + produced compounds in Cow manure on Avicel	g3pe	Sn-Glycero-3-phosphoethanolamine
+CM_A	Media + produced compounds in Cow manure on Avicel	ala__D	D-Alanine
+CM_A	Media + produced compounds in Cow manure on Avicel	15dap	1,5-Diaminopentane
+CM_A	Media + produced compounds in Cow manure on Avicel	ppa	Propionate (n-C3:0)
+CM_A	Media + produced compounds in Cow manure on Avicel	bz	Benzoate
+CM_A	Media + produced compounds in Cow manure on Avicel	cys__L	L-Cysteine
+CM_A	Media + produced compounds in Cow manure on Avicel	ch4s	Methanethiol CH4S
+CM_A	Media + produced compounds in Cow manure on Avicel	pheme	Protoheme C34H30FeN4O4
+CM_A	Media + produced compounds in Cow manure on Avicel	thm	Thiamin
+CM_A	Media + produced compounds in Cow manure on Avicel	mn2	Manganese
+CM_A	Media + produced compounds in Cow manure on Avicel	acald	Acetaldehyde
+CM_A	Media + produced compounds in Cow manure on Avicel	ura	Uracil
+CM_A	Media + produced compounds in Cow manure on Avicel	h	H+
+CM_A	Media + produced compounds in Cow manure on Avicel	cu2	Copper
+CM_A	Media + produced compounds in Cow manure on Avicel	fe3	Iron (Fe3+)
+CM_A	Media + produced compounds in Cow manure on Avicel	zn2	Zinc
+CM_A	Media + produced compounds in Cow manure on Avicel	gua	Guanine
+CM_A	Media + produced compounds in Cow manure on Avicel	5drib	5'-deoxyribose
+CM_A	Media + produced compounds in Cow manure on Avicel	4hba	4-Hydroxy-benzyl alcohol
+CM_A	Media + produced compounds in Cow manure on Avicel	pydxn	Pyridoxine
+CM_A	Media + produced compounds in Cow manure on Avicel	mobd	Molybdate
+CM_A	Media + produced compounds in Cow manure on Avicel	ribflv	Riboflavin C17H20N4O6
+CM_A	Media + produced compounds in Cow manure on Avicel	cellb	Cellobiose
+CM_A	Media + produced compounds in Cow manure on Avicel	urea	Urea CH4N2O
+CM_A	Media + produced compounds in Cow manure on Avicel	ppap	Propanoyl phosphate
+CM_A	Media + produced compounds in Cow manure on Avicel	ca2	Calcium
+CM_A	Media + produced compounds in Cow manure on Avicel	nac	Nicotinate
+CM_A	Media + produced compounds in Cow manure on Avicel	fe2	Fe2+ mitochondria
+CM_A	Media + produced compounds in Cow manure on Avicel	pnto__R	(R)-Pantothenate
+CM_A	Media + produced compounds in Cow manure on Avicel	mal__L	L-Malate
+CM_A	Media + produced compounds in Cow manure on Avicel	ibt	Isobutyrate
+CM_A	Media + produced compounds in Cow manure on Avicel	so4	Sulfate
+CM_A	Media + produced compounds in Cow manure on Avicel	man1p	D-Mannose 1-phosphate
+CM_A	Media + produced compounds in Cow manure on Avicel	ni2	Nickel
+CM_A	Media + produced compounds in Cow manure on Avicel	glc__D	D-Glucose
+CM_A	Media + produced compounds in Cow manure on Avicel	pi	Phosphate
+CM_A	Media + produced compounds in Cow manure on Avicel	h2o	H2O H2O
+CM_A	Media + produced compounds in Cow manure on Avicel	tol	Toluene
+CM_A	Media + produced compounds in Cow manure on Avicel	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+CM_A	Media + produced compounds in Cow manure on Avicel	ac	Acetate
+CM_A	Media + produced compounds in Cow manure on Avicel	ocdcea	Octadecenoate (n-C18:1)
+CM_A	Media + produced compounds in Cow manure on Avicel	2mpa	2 methylpropanoic acid
+CM_A	Media + produced compounds in Cow manure on Avicel	h2s	Hydrogen sulfide
+CM_A	Media + produced compounds in Cow manure on Avicel	etoh	Ethanol
+CM_A	Media + produced compounds in Cow manure on Avicel	spmd	Spermidine
+CM_A	Media + produced compounds in Cow manure on Avicel	fol	Folate
 CM_A	Media + produced compounds in Cow manure on Avicel	cell3	Cellulose (n=3 repeating units)
 CM_A	Media + produced compounds in Cow manure on Avicel	cell4	Cellulose (n=4 repeating units)
-CM_A	Media + produced compounds in Cow manure on Avicel	g3pe	Sn-Glycero-3-phosphoethanolamine
-CM_A	Media + produced compounds in Cow manure on Avicel	pnto__R	(R)-Pantothenate
-CM_A	Media + produced compounds in Cow manure on Avicel	nac	Nicotinate
-CM_A	Media + produced compounds in Cow manure on Avicel	cellb	Cellobiose
-CM_A	Media + produced compounds in Cow manure on Avicel	ni2	Nickel
-CM_A	Media + produced compounds in Cow manure on Avicel	cu2	Copper
-CM_A	Media + produced compounds in Cow manure on Avicel	12ppd__S	(S)-Propane-1,2-diol
-CM_A	Media + produced compounds in Cow manure on Avicel	ac	Acetate
-CM_A	Media + produced compounds in Cow manure on Avicel	5drib	5'-deoxyribose
-CM_A	Media + produced compounds in Cow manure on Avicel	indole	Indole
-CM_A	Media + produced compounds in Cow manure on Avicel	mn2	Manganese
-CM_A	Media + produced compounds in Cow manure on Avicel	mobd	Molybdate
-CM_A	Media + produced compounds in Cow manure on Avicel	12ppd__R	(R)-Propane-1,2-diol
-CM_A	Media + produced compounds in Cow manure on Avicel	4hba	4-Hydroxy-benzyl alcohol
 CM_A	Media + produced compounds in Cow manure on Avicel	slnt	Selenite
-CM_A	Media + produced compounds in Cow manure on Avicel	but	Butyrate (n-C4:0)
-CM_A	Media + produced compounds in Cow manure on Avicel	acald	Acetaldehyde
-CM_A	Media + produced compounds in Cow manure on Avicel	thym	Thymine C5H6N2O2
-CM_A	Media + produced compounds in Cow manure on Avicel	tol	Toluene
-CM_A	Media + produced compounds in Cow manure on Avicel	actn__R	 R  Acetoin C4H8O2
-CM_A	Media + produced compounds in Cow manure on Avicel	etha	Ethanolamine
-CM_A	Media + produced compounds in Cow manure on Avicel	h2s	Hydrogen sulfide
-CM_A	Media + produced compounds in Cow manure on Avicel	15dap	1,5-Diaminopentane
-CM_A	Media + produced compounds in Cow manure on Avicel	ribflv	Riboflavin C17H20N4O6
-CM_A	Media + produced compounds in Cow manure on Avicel	h	H+
-CM_A	Media + produced compounds in Cow manure on Avicel	pheme	Protoheme C34H30FeN4O4
-CM_A	Media + produced compounds in Cow manure on Avicel	gua	Guanine
-CM_A	Media + produced compounds in Cow manure on Avicel	cl	Chloride
-CM_A	Media + produced compounds in Cow manure on Avicel	inost	Myo-Inositol
-CM_A	Media + produced compounds in Cow manure on Avicel	fol	Folate
-CM_A	Media + produced compounds in Cow manure on Avicel	ibt	Isobutyrate
-CM_A	Media + produced compounds in Cow manure on Avicel	urea	Urea CH4N2O
-CM_A	Media + produced compounds in Cow manure on Avicel	acglu	N-Acetyl-L-glutamate
-CM_A	Media + produced compounds in Cow manure on Avicel	cell5	Cellulose (n=5 repeating units)
-CM_A	Media + produced compounds in Cow manure on Avicel	ocdcea	Octadecenoate (n-C18:1)
-CM_A	Media + produced compounds in Cow manure on Avicel	ala__D	D-Alanine
-CM_A	Media + produced compounds in Cow manure on Avicel	btn	Biotin
-CM_A	Media + produced compounds in Cow manure on Avicel	ppa	Propionate (n-C3:0)
-CM_A	Media + produced compounds in Cow manure on Avicel	gcald	Glycolaldehyde
-CM_A	Media + produced compounds in Cow manure on Avicel	bz	Benzoate
-CM_A	Media + produced compounds in Cow manure on Avicel	ca2	Calcium
-CM_A	Media + produced compounds in Cow manure on Avicel	na1	Sodium
-CM_A	Media + produced compounds in Cow manure on Avicel	4abutn	4-Aminobutanal
-CM_A	Media + produced compounds in Cow manure on Avicel	lac__L	L-Lactate
-CM_A	Media + produced compounds in Cow manure on Avicel	so4	Sulfate
-CM_A	Media + produced compounds in Cow manure on Avicel	h2o	H2O H2O
-CM_A	Media + produced compounds in Cow manure on Avicel	2mpa	2 methylpropanoic acid
-CM_A	Media + produced compounds in Cow manure on Avicel	4abz	4-Aminobenzoate
-CM_A	Media + produced compounds in Cow manure on Avicel	ura	Uracil
 CM_A	Media + produced compounds in Cow manure on Avicel	co2	CO2 CO2
-CM_A	Media + produced compounds in Cow manure on Avicel	mal__L	L-Malate
-CM_A	Media + produced compounds in Cow manure on Avicel	man1p	D-Mannose 1-phosphate
 CM_A	Media + produced compounds in Cow manure on Avicel	mg2	Magnesium
-CM_A	Media + produced compounds in Cow manure on Avicel	zn2	Zinc
-CM_A	Media + produced compounds in Cow manure on Avicel	fe2	Fe2+ mitochondria
-CM_A	Media + produced compounds in Cow manure on Avicel	thm	Thiamin
-CM_A	Media + produced compounds in Cow manure on Avicel	pi	Phosphate
-CM_A	Media + produced compounds in Cow manure on Avicel	ppap	Propanoyl phosphate
-CM_A	Media + produced compounds in Cow manure on Avicel	etoh	Ethanol
-CM_A	Media + produced compounds in Cow manure on Avicel	nh4	Ammonium
-CM_A	Media + produced compounds in Cow manure on Avicel	ch4s	Methanethiol CH4S
-CM_A	Media + produced compounds in Cow manure on Avicel	cobalt2	Co2+
-CM_A	Media + produced compounds in Cow manure on Avicel	spmd	Spermidine
-CM_A	Media + produced compounds in Cow manure on Avicel	cys__L	L-Cysteine
-CM_A	Media + produced compounds in Cow manure on Avicel	fe3	Iron (Fe3+)
+CM_A	Media + produced compounds in Cow manure on Avicel	thym	Thymine C5H6N2O2
+CM_A	Media + produced compounds in Cow manure on Avicel	but	Butyrate (n-C4:0)
 CM_A	Media + produced compounds in Cow manure on Avicel	k	Potassium
-CM_A	Media + produced compounds in Cow manure on Avicel	pydxn	Pyridoxine
-CM_P	Media + produced compounds in Cow manure on PASC	cell4	Cellulose (n=4 repeating units)
-CM_P	Media + produced compounds in Cow manure on PASC	mn2	Manganese
-CM_P	Media + produced compounds in Cow manure on PASC	acald	Acetaldehyde
-CM_P	Media + produced compounds in Cow manure on PASC	2obut	2-Oxobutanoate
-CM_P	Media + produced compounds in Cow manure on PASC	fald	Formaldehyde
-CM_P	Media + produced compounds in Cow manure on PASC	h	H+
-CM_P	Media + produced compounds in Cow manure on PASC	gua	Guanine
-CM_P	Media + produced compounds in Cow manure on PASC	ptrc	Putrescine
-CM_P	Media + produced compounds in Cow manure on PASC	cell5	Cellulose (n=5 repeating units)
-CM_P	Media + produced compounds in Cow manure on PASC	ocdcea	Octadecenoate (n-C18:1)
-CM_P	Media + produced compounds in Cow manure on PASC	ca2	Calcium
-CM_P	Media + produced compounds in Cow manure on PASC	lac__L	L-Lactate
-CM_P	Media + produced compounds in Cow manure on PASC	h2o	H2O H2O
-CM_P	Media + produced compounds in Cow manure on PASC	zn2	Zinc
-CM_P	Media + produced compounds in Cow manure on PASC	pi	Phosphate
-CM_P	Media + produced compounds in Cow manure on PASC	nh4	Ammonium
-CM_P	Media + produced compounds in Cow manure on PASC	co	Carbon monoxide
-CM_P	Media + produced compounds in Cow manure on PASC	k	Potassium
-CM_P	Media + produced compounds in Cow manure on PASC	3mba	3 methylbutanoic acid
-CM_P	Media + produced compounds in Cow manure on PASC	ni2	Nickel
-CM_P	Media + produced compounds in Cow manure on PASC	cu2	Copper
-CM_P	Media + produced compounds in Cow manure on PASC	indole	Indole
-CM_P	Media + produced compounds in Cow manure on PASC	12ppd__R	(R)-Propane-1,2-diol
-CM_P	Media + produced compounds in Cow manure on PASC	actn__R	 R  Acetoin C4H8O2
-CM_P	Media + produced compounds in Cow manure on PASC	h2s	Hydrogen sulfide
-CM_P	Media + produced compounds in Cow manure on PASC	urea	Urea CH4N2O
+CM_A	Media + produced compounds in Cow manure on Avicel	etha	Ethanolamine
+CM_A	Media + produced compounds in Cow manure on Avicel	btn	Biotin
+CM_A	Media + produced compounds in Cow manure on Avicel	4abz	4-Aminobenzoate
+CM_A	Media + produced compounds in Cow manure on Avicel	cl	Chloride
+CM_A	Media + produced compounds in Cow manure on Avicel	cobalt2	Co2+
+CM_A	Media + produced compounds in Cow manure on Avicel	actn__R	 R  Acetoin C4H8O2
 CM_P	Media + produced compounds in Cow manure on PASC	acglu	N-Acetyl-L-glutamate
-CM_P	Media + produced compounds in Cow manure on PASC	arg__L	L-Arginine
-CM_P	Media + produced compounds in Cow manure on PASC	ppa	Propionate (n-C3:0)
-CM_P	Media + produced compounds in Cow manure on PASC	gcald	Glycolaldehyde
-CM_P	Media + produced compounds in Cow manure on PASC	na1	Sodium
-CM_P	Media + produced compounds in Cow manure on PASC	so4	Sulfate
-CM_P	Media + produced compounds in Cow manure on PASC	thm	Thiamin
-CM_P	Media + produced compounds in Cow manure on PASC	orn	Ornithine
-CM_P	Media + produced compounds in Cow manure on PASC	cit	Citrate
-CM_P	Media + produced compounds in Cow manure on PASC	pydxn	Pyridoxine
-CM_P	Media + produced compounds in Cow manure on PASC	g3pe	Sn-Glycero-3-phosphoethanolamine
-CM_P	Media + produced compounds in Cow manure on PASC	cellb	Cellobiose
-CM_P	Media + produced compounds in Cow manure on PASC	ac	Acetate
-CM_P	Media + produced compounds in Cow manure on PASC	5drib	5'-deoxyribose
-CM_P	Media + produced compounds in Cow manure on PASC	mobd	Molybdate
-CM_P	Media + produced compounds in Cow manure on PASC	4hba	4-Hydroxy-benzyl alcohol
-CM_P	Media + produced compounds in Cow manure on PASC	lys__L	L-Lysine
-CM_P	Media + produced compounds in Cow manure on PASC	tol	Toluene
-CM_P	Media + produced compounds in Cow manure on PASC	pheme	Protoheme C34H30FeN4O4
-CM_P	Media + produced compounds in Cow manure on PASC	15dap	1,5-Diaminopentane
-CM_P	Media + produced compounds in Cow manure on PASC	fol	Folate
-CM_P	Media + produced compounds in Cow manure on PASC	ala__D	D-Alanine
-CM_P	Media + produced compounds in Cow manure on PASC	orn__L	L Ornithine C5H13N2O2
-CM_P	Media + produced compounds in Cow manure on PASC	bz	Benzoate
+CM_P	Media + produced compounds in Cow manure on PASC	nh4	Ammonium
 CM_P	Media + produced compounds in Cow manure on PASC	4abutn	4-Aminobutanal
-CM_P	Media + produced compounds in Cow manure on PASC	co2	CO2 CO2
-CM_P	Media + produced compounds in Cow manure on PASC	meoh	Methanol
-CM_P	Media + produced compounds in Cow manure on PASC	man1p	D-Mannose 1-phosphate
-CM_P	Media + produced compounds in Cow manure on PASC	mg2	Magnesium
-CM_P	Media + produced compounds in Cow manure on PASC	mnl1p	D-Mannitol 1-phosphate
-CM_P	Media + produced compounds in Cow manure on PASC	ppap	Propanoyl phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	15dap	1,5-Diaminopentane
+CM_P	Media + produced compounds in Cow manure on PASC	co	Carbon monoxide
+CM_P	Media + produced compounds in Cow manure on PASC	ppa	Propionate (n-C3:0)
 CM_P	Media + produced compounds in Cow manure on PASC	glyclt	Glycolate C2H3O3
-CM_P	Media + produced compounds in Cow manure on PASC	cobalt2	Co2+
-CM_P	Media + produced compounds in Cow manure on PASC	fe3	Iron (Fe3+)
-CM_P	Media + produced compounds in Cow manure on PASC	cell3	Cellulose (n=3 repeating units)
-CM_P	Media + produced compounds in Cow manure on PASC	pnto__R	(R)-Pantothenate
-CM_P	Media + produced compounds in Cow manure on PASC	nac	Nicotinate
-CM_P	Media + produced compounds in Cow manure on PASC	12ppd__S	(S)-Propane-1,2-diol
-CM_P	Media + produced compounds in Cow manure on PASC	slnt	Selenite
-CM_P	Media + produced compounds in Cow manure on PASC	but	Butyrate (n-C4:0)
-CM_P	Media + produced compounds in Cow manure on PASC	thym	Thymine C5H6N2O2
-CM_P	Media + produced compounds in Cow manure on PASC	etha	Ethanolamine
+CM_P	Media + produced compounds in Cow manure on PASC	pydxn	Pyridoxine
 CM_P	Media + produced compounds in Cow manure on PASC	ribflv	Riboflavin C17H20N4O6
-CM_P	Media + produced compounds in Cow manure on PASC	cl	Chloride
-CM_P	Media + produced compounds in Cow manure on PASC	inost	Myo-Inositol
-CM_P	Media + produced compounds in Cow manure on PASC	glc__D	D-Glucose
-CM_P	Media + produced compounds in Cow manure on PASC	btn	Biotin
-CM_P	Media + produced compounds in Cow manure on PASC	for	Formate
-CM_P	Media + produced compounds in Cow manure on PASC	glyc	Glycerol
-CM_P	Media + produced compounds in Cow manure on PASC	2mpa	2 methylpropanoic acid
+CM_P	Media + produced compounds in Cow manure on PASC	urea	Urea CH4N2O
+CM_P	Media + produced compounds in Cow manure on PASC	pnto__R	(R)-Pantothenate
+CM_P	Media + produced compounds in Cow manure on PASC	man1p	D-Mannose 1-phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	3mba	3 methylbutanoic acid
+CM_P	Media + produced compounds in Cow manure on PASC	fol	Folate
+CM_P	Media + produced compounds in Cow manure on PASC	co2	CO2 CO2
+CM_P	Media + produced compounds in Cow manure on PASC	lys__L	L-Lysine
 CM_P	Media + produced compounds in Cow manure on PASC	4abz	4-Aminobenzoate
-CM_P	Media + produced compounds in Cow manure on PASC	ura	Uracil
-CM_P	Media + produced compounds in Cow manure on PASC	mal__L	L-Malate
-CM_P	Media + produced compounds in Cow manure on PASC	fe2	Fe2+ mitochondria
-CM_P	Media + produced compounds in Cow manure on PASC	spmd	Spermidine
+CM_P	Media + produced compounds in Cow manure on PASC	cl	Chloride
+CM_P	Media + produced compounds in Cow manure on PASC	actn__R	 R  Acetoin C4H8O2
+CM_P	Media + produced compounds in Cow manure on PASC	cell5	Cellulose (n=5 repeating units)
+CM_P	Media + produced compounds in Cow manure on PASC	na1	Sodium
+CM_P	Media + produced compounds in Cow manure on PASC	g3pe	Sn-Glycero-3-phosphoethanolamine
+CM_P	Media + produced compounds in Cow manure on PASC	ala__D	D-Alanine
+CM_P	Media + produced compounds in Cow manure on PASC	pheme	Protoheme C34H30FeN4O4
 CM_P	Media + produced compounds in Cow manure on PASC	cys__L	L-Cysteine
-CM_X	Media + produced compounds in Cow manure on Xylan	pnto__R	(R)-Pantothenate
-CM_X	Media + produced compounds in Cow manure on Xylan	nac	Nicotinate
-CM_X	Media + produced compounds in Cow manure on Xylan	ni2	Nickel
-CM_X	Media + produced compounds in Cow manure on Xylan	cu2	Copper
-CM_X	Media + produced compounds in Cow manure on Xylan	ascb__L	L-Ascorbate
-CM_X	Media + produced compounds in Cow manure on Xylan	mn2	Manganese
-CM_X	Media + produced compounds in Cow manure on Xylan	mobd	Molybdate
-CM_X	Media + produced compounds in Cow manure on Xylan	xyl3	Xylotriose
-CM_X	Media + produced compounds in Cow manure on Xylan	ribflv	Riboflavin C17H20N4O6
-CM_X	Media + produced compounds in Cow manure on Xylan	h	H+
-CM_X	Media + produced compounds in Cow manure on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
-CM_X	Media + produced compounds in Cow manure on Xylan	cl	Chloride
-CM_X	Media + produced compounds in Cow manure on Xylan	fol	Folate
-CM_X	Media + produced compounds in Cow manure on Xylan	btn	Biotin
-CM_X	Media + produced compounds in Cow manure on Xylan	ca2	Calcium
-CM_X	Media + produced compounds in Cow manure on Xylan	na1	Sodium
-CM_X	Media + produced compounds in Cow manure on Xylan	so4	Sulfate
-CM_X	Media + produced compounds in Cow manure on Xylan	h2o	H2O H2O
-CM_X	Media + produced compounds in Cow manure on Xylan	4abz	4-Aminobenzoate
-CM_X	Media + produced compounds in Cow manure on Xylan	mg2	Magnesium
-CM_X	Media + produced compounds in Cow manure on Xylan	zn2	Zinc
-CM_X	Media + produced compounds in Cow manure on Xylan	fe2	Fe2+ mitochondria
-CM_X	Media + produced compounds in Cow manure on Xylan	thm	Thiamin
-CM_X	Media + produced compounds in Cow manure on Xylan	xyl__D	D-Xylose
-CM_X	Media + produced compounds in Cow manure on Xylan	pi	Phosphate
-CM_X	Media + produced compounds in Cow manure on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
-CM_X	Media + produced compounds in Cow manure on Xylan	nh4	Ammonium
+CM_P	Media + produced compounds in Cow manure on PASC	acald	Acetaldehyde
+CM_P	Media + produced compounds in Cow manure on PASC	mn2	Manganese
+CM_P	Media + produced compounds in Cow manure on PASC	2obut	2-Oxobutanoate
+CM_P	Media + produced compounds in Cow manure on PASC	fe3	Iron (Fe3+)
+CM_P	Media + produced compounds in Cow manure on PASC	4hba	4-Hydroxy-benzyl alcohol
+CM_P	Media + produced compounds in Cow manure on PASC	5drib	5'-deoxyribose
+CM_P	Media + produced compounds in Cow manure on PASC	cellb	Cellobiose
+CM_P	Media + produced compounds in Cow manure on PASC	ppap	Propanoyl phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	cit	Citrate
+CM_P	Media + produced compounds in Cow manure on PASC	fe2	Fe2+ mitochondria
+CM_P	Media + produced compounds in Cow manure on PASC	mal__L	L-Malate
+CM_P	Media + produced compounds in Cow manure on PASC	for	Formate
+CM_P	Media + produced compounds in Cow manure on PASC	pi	Phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	2mpa	2 methylpropanoic acid
+CM_P	Media + produced compounds in Cow manure on PASC	cell3	Cellulose (n=3 repeating units)
+CM_P	Media + produced compounds in Cow manure on PASC	mg2	Magnesium
+CM_P	Media + produced compounds in Cow manure on PASC	k	Potassium
+CM_P	Media + produced compounds in Cow manure on PASC	etha	Ethanolamine
+CM_P	Media + produced compounds in Cow manure on PASC	arg__L	L-Arginine
+CM_P	Media + produced compounds in Cow manure on PASC	cobalt2	Co2+
+CM_P	Media + produced compounds in Cow manure on PASC	but	Butyrate (n-C4:0)
+CM_P	Media + produced compounds in Cow manure on PASC	lac__L	L-Lactate
+CM_P	Media + produced compounds in Cow manure on PASC	bz	Benzoate
+CM_P	Media + produced compounds in Cow manure on PASC	ura	Uracil
+CM_P	Media + produced compounds in Cow manure on PASC	h	H+
+CM_P	Media + produced compounds in Cow manure on PASC	cu2	Copper
+CM_P	Media + produced compounds in Cow manure on PASC	zn2	Zinc
+CM_P	Media + produced compounds in Cow manure on PASC	orn__L	L Ornithine C5H13N2O2
+CM_P	Media + produced compounds in Cow manure on PASC	gua	Guanine
+CM_P	Media + produced compounds in Cow manure on PASC	mobd	Molybdate
+CM_P	Media + produced compounds in Cow manure on PASC	ca2	Calcium
+CM_P	Media + produced compounds in Cow manure on PASC	nac	Nicotinate
+CM_P	Media + produced compounds in Cow manure on PASC	so4	Sulfate
+CM_P	Media + produced compounds in Cow manure on PASC	ni2	Nickel
+CM_P	Media + produced compounds in Cow manure on PASC	fald	Formaldehyde
+CM_P	Media + produced compounds in Cow manure on PASC	h2o	H2O H2O
+CM_P	Media + produced compounds in Cow manure on PASC	meoh	Methanol
+CM_P	Media + produced compounds in Cow manure on PASC	spmd	Spermidine
+CM_P	Media + produced compounds in Cow manure on PASC	thym	Thymine C5H6N2O2
+CM_P	Media + produced compounds in Cow manure on PASC	h2s	Hydrogen sulfide
+CM_P	Media + produced compounds in Cow manure on PASC	orn	Ornithine
+CM_P	Media + produced compounds in Cow manure on PASC	ptrc	Putrescine
+CM_P	Media + produced compounds in Cow manure on PASC	glc__D	D-Glucose
+CM_P	Media + produced compounds in Cow manure on PASC	tol	Toluene
+CM_P	Media + produced compounds in Cow manure on PASC	ac	Acetate
+CM_P	Media + produced compounds in Cow manure on PASC	ocdcea	Octadecenoate (n-C18:1)
+CM_P	Media + produced compounds in Cow manure on PASC	cell4	Cellulose (n=4 repeating units)
+CM_P	Media + produced compounds in Cow manure on PASC	slnt	Selenite
+CM_P	Media + produced compounds in Cow manure on PASC	mnl1p	D-Mannitol 1-phosphate
+CM_P	Media + produced compounds in Cow manure on PASC	btn	Biotin
+CM_P	Media + produced compounds in Cow manure on PASC	thm	Thiamin
 CM_X	Media + produced compounds in Cow manure on Xylan	xylb	Xylobiose
-CM_X	Media + produced compounds in Cow manure on Xylan	cobalt2	Co2+
+CM_X	Media + produced compounds in Cow manure on Xylan	nh4	Ammonium
+CM_X	Media + produced compounds in Cow manure on Xylan	na1	Sodium
+CM_X	Media + produced compounds in Cow manure on Xylan	ascb__L	L-Ascorbate
 CM_X	Media + produced compounds in Cow manure on Xylan	cys__L	L-Cysteine
+CM_X	Media + produced compounds in Cow manure on Xylan	thm	Thiamin
+CM_X	Media + produced compounds in Cow manure on Xylan	mn2	Manganese
+CM_X	Media + produced compounds in Cow manure on Xylan	h	H+
+CM_X	Media + produced compounds in Cow manure on Xylan	cu2	Copper
 CM_X	Media + produced compounds in Cow manure on Xylan	fe3	Iron (Fe3+)
-CM_X	Media + produced compounds in Cow manure on Xylan	k	Potassium
+CM_X	Media + produced compounds in Cow manure on Xylan	zn2	Zinc
 CM_X	Media + produced compounds in Cow manure on Xylan	pydxn	Pyridoxine
-M_P	Media + produced compounds in Marshland soil on PASC	cell3	Cellulose (n=3 repeating units)
-M_P	Media + produced compounds in Marshland soil on PASC	cell4	Cellulose (n=4 repeating units)
-M_P	Media + produced compounds in Marshland soil on PASC	xan	Xanthine
-M_P	Media + produced compounds in Marshland soil on PASC	pnto__R	(R)-Pantothenate
-M_P	Media + produced compounds in Marshland soil on PASC	nac	Nicotinate
-M_P	Media + produced compounds in Marshland soil on PASC	cellb	Cellobiose
-M_P	Media + produced compounds in Marshland soil on PASC	ni2	Nickel
-M_P	Media + produced compounds in Marshland soil on PASC	cu2	Copper
-M_P	Media + produced compounds in Marshland soil on PASC	12ppd__S	(S)-Propane-1,2-diol
-M_P	Media + produced compounds in Marshland soil on PASC	ac	Acetate
-M_P	Media + produced compounds in Marshland soil on PASC	5drib	5'-deoxyribose
-M_P	Media + produced compounds in Marshland soil on PASC	indole	Indole
-M_P	Media + produced compounds in Marshland soil on PASC	mn2	Manganese
-M_P	Media + produced compounds in Marshland soil on PASC	mobd	Molybdate
-M_P	Media + produced compounds in Marshland soil on PASC	hxa	Hexanoate (n-C6:0)
-M_P	Media + produced compounds in Marshland soil on PASC	slnt	Selenite
-M_P	Media + produced compounds in Marshland soil on PASC	but	Butyrate (n-C4:0)
-M_P	Media + produced compounds in Marshland soil on PASC	acald	Acetaldehyde
-M_P	Media + produced compounds in Marshland soil on PASC	thym	Thymine C5H6N2O2
-M_P	Media + produced compounds in Marshland soil on PASC	lys__L	L-Lysine
-M_P	Media + produced compounds in Marshland soil on PASC	ind3ac	Indole 3 acetate C10H8NO2
-M_P	Media + produced compounds in Marshland soil on PASC	etha	Ethanolamine
-M_P	Media + produced compounds in Marshland soil on PASC	h2s	Hydrogen sulfide
-M_P	Media + produced compounds in Marshland soil on PASC	pheme	Protoheme C34H30FeN4O4
-M_P	Media + produced compounds in Marshland soil on PASC	ribflv	Riboflavin C17H20N4O6
-M_P	Media + produced compounds in Marshland soil on PASC	h	H+
-M_P	Media + produced compounds in Marshland soil on PASC	gua	Guanine
-M_P	Media + produced compounds in Marshland soil on PASC	cl	Chloride
-M_P	Media + produced compounds in Marshland soil on PASC	inost	Myo-Inositol
-M_P	Media + produced compounds in Marshland soil on PASC	fol	Folate
-M_P	Media + produced compounds in Marshland soil on PASC	urea	Urea CH4N2O
-M_P	Media + produced compounds in Marshland soil on PASC	arg__L	L-Arginine
+CM_X	Media + produced compounds in Cow manure on Xylan	mobd	Molybdate
+CM_X	Media + produced compounds in Cow manure on Xylan	ribflv	Riboflavin C17H20N4O6
+CM_X	Media + produced compounds in Cow manure on Xylan	ca2	Calcium
+CM_X	Media + produced compounds in Cow manure on Xylan	nac	Nicotinate
+CM_X	Media + produced compounds in Cow manure on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
+CM_X	Media + produced compounds in Cow manure on Xylan	fe2	Fe2+ mitochondria
+CM_X	Media + produced compounds in Cow manure on Xylan	pnto__R	(R)-Pantothenate
+CM_X	Media + produced compounds in Cow manure on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
+CM_X	Media + produced compounds in Cow manure on Xylan	so4	Sulfate
+CM_X	Media + produced compounds in Cow manure on Xylan	xyl3	Xylotriose
+CM_X	Media + produced compounds in Cow manure on Xylan	ni2	Nickel
+CM_X	Media + produced compounds in Cow manure on Xylan	pi	Phosphate
+CM_X	Media + produced compounds in Cow manure on Xylan	h2o	H2O H2O
+CM_X	Media + produced compounds in Cow manure on Xylan	fol	Folate
+CM_X	Media + produced compounds in Cow manure on Xylan	mg2	Magnesium
+CM_X	Media + produced compounds in Cow manure on Xylan	k	Potassium
+CM_X	Media + produced compounds in Cow manure on Xylan	btn	Biotin
+CM_X	Media + produced compounds in Cow manure on Xylan	4abz	4-Aminobenzoate
+CM_X	Media + produced compounds in Cow manure on Xylan	cl	Chloride
+CM_X	Media + produced compounds in Cow manure on Xylan	cobalt2	Co2+
 M_P	Media + produced compounds in Marshland soil on PASC	cell5	Cellulose (n=5 repeating units)
-M_P	Media + produced compounds in Marshland soil on PASC	ocdcea	Octadecenoate (n-C18:1)
-M_P	Media + produced compounds in Marshland soil on PASC	glc__D	D-Glucose
+M_P	Media + produced compounds in Marshland soil on PASC	lac__L	L-Lactate
+M_P	Media + produced compounds in Marshland soil on PASC	nh4	Ammonium
+M_P	Media + produced compounds in Marshland soil on PASC	na1	Sodium
 M_P	Media + produced compounds in Marshland soil on PASC	ala__D	D-Alanine
-M_P	Media + produced compounds in Marshland soil on PASC	met__L	L-Methionine
-M_P	Media + produced compounds in Marshland soil on PASC	btn	Biotin
+M_P	Media + produced compounds in Marshland soil on PASC	co	Carbon monoxide
 M_P	Media + produced compounds in Marshland soil on PASC	ppa	Propionate (n-C3:0)
 M_P	Media + produced compounds in Marshland soil on PASC	bz	Benzoate
-M_P	Media + produced compounds in Marshland soil on PASC	ca2	Calcium
-M_P	Media + produced compounds in Marshland soil on PASC	na1	Sodium
-M_P	Media + produced compounds in Marshland soil on PASC	lac__L	L-Lactate
-M_P	Media + produced compounds in Marshland soil on PASC	so4	Sulfate
-M_P	Media + produced compounds in Marshland soil on PASC	h2o	H2O H2O
-M_P	Media + produced compounds in Marshland soil on PASC	dhptd	4,5-dihydroxy-2,3-pentanedione
-M_P	Media + produced compounds in Marshland soil on PASC	co	Carbon monoxide
-M_P	Media + produced compounds in Marshland soil on PASC	2mpa	2 methylpropanoic acid
-M_P	Media + produced compounds in Marshland soil on PASC	4abz	4-Aminobenzoate
-M_P	Media + produced compounds in Marshland soil on PASC	glyc	Glycerol
-M_P	Media + produced compounds in Marshland soil on PASC	pta	Pentanoate
-M_P	Media + produced compounds in Marshland soil on PASC	asp__D	D-Aspartate
-M_P	Media + produced compounds in Marshland soil on PASC	ura	Uracil
-M_P	Media + produced compounds in Marshland soil on PASC	co2	CO2 CO2
-M_P	Media + produced compounds in Marshland soil on PASC	mal__L	L-Malate
-M_P	Media + produced compounds in Marshland soil on PASC	mg2	Magnesium
-M_P	Media + produced compounds in Marshland soil on PASC	zn2	Zinc
-M_P	Media + produced compounds in Marshland soil on PASC	hxan	Hypoxanthine
-M_P	Media + produced compounds in Marshland soil on PASC	fe2	Fe2+ mitochondria
-M_P	Media + produced compounds in Marshland soil on PASC	thm	Thiamin
-M_P	Media + produced compounds in Marshland soil on PASC	pi	Phosphate
-M_P	Media + produced compounds in Marshland soil on PASC	ppap	Propanoyl phosphate
-M_P	Media + produced compounds in Marshland soil on PASC	nh4	Ammonium
-M_P	Media + produced compounds in Marshland soil on PASC	isocap	Isocaproate
-M_P	Media + produced compounds in Marshland soil on PASC	cobalt2	Co2+
-M_P	Media + produced compounds in Marshland soil on PASC	spmd	Spermidine
 M_P	Media + produced compounds in Marshland soil on PASC	cys__L	L-Cysteine
+M_P	Media + produced compounds in Marshland soil on PASC	pheme	Protoheme C34H30FeN4O4
+M_P	Media + produced compounds in Marshland soil on PASC	acald	Acetaldehyde
+M_P	Media + produced compounds in Marshland soil on PASC	thm	Thiamin
+M_P	Media + produced compounds in Marshland soil on PASC	mn2	Manganese
+M_P	Media + produced compounds in Marshland soil on PASC	ura	Uracil
+M_P	Media + produced compounds in Marshland soil on PASC	dhptd	4,5-dihydroxy-2,3-pentanedione
+M_P	Media + produced compounds in Marshland soil on PASC	h	H+
+M_P	Media + produced compounds in Marshland soil on PASC	hxa	Hexanoate (n-C6:0)
+M_P	Media + produced compounds in Marshland soil on PASC	acgam1p	N-Acetyl-D-glucosamine 1-phosphate
+M_P	Media + produced compounds in Marshland soil on PASC	cu2	Copper
 M_P	Media + produced compounds in Marshland soil on PASC	fe3	Iron (Fe3+)
-M_P	Media + produced compounds in Marshland soil on PASC	k	Potassium
+M_P	Media + produced compounds in Marshland soil on PASC	zn2	Zinc
+M_P	Media + produced compounds in Marshland soil on PASC	gua	Guanine
+M_P	Media + produced compounds in Marshland soil on PASC	5drib	5'-deoxyribose
 M_P	Media + produced compounds in Marshland soil on PASC	pydxn	Pyridoxine
-M_X	Media + produced compounds in Marshland soil on Xylan	pnto__R	(R)-Pantothenate
-M_X	Media + produced compounds in Marshland soil on Xylan	nac	Nicotinate
-M_X	Media + produced compounds in Marshland soil on Xylan	fmn	FMN C17H19N4O9P
-M_X	Media + produced compounds in Marshland soil on Xylan	ni2	Nickel
-M_X	Media + produced compounds in Marshland soil on Xylan	cu2	Copper
-M_X	Media + produced compounds in Marshland soil on Xylan	ascb__L	L-Ascorbate
-M_X	Media + produced compounds in Marshland soil on Xylan	ac	Acetate
-M_X	Media + produced compounds in Marshland soil on Xylan	5drib	5'-deoxyribose
-M_X	Media + produced compounds in Marshland soil on Xylan	indole	Indole
-M_X	Media + produced compounds in Marshland soil on Xylan	mn2	Manganese
-M_X	Media + produced compounds in Marshland soil on Xylan	mobd	Molybdate
-M_X	Media + produced compounds in Marshland soil on Xylan	xyl3	Xylotriose
-M_X	Media + produced compounds in Marshland soil on Xylan	but	Butyrate (n-C4:0)
-M_X	Media + produced compounds in Marshland soil on Xylan	acald	Acetaldehyde
-M_X	Media + produced compounds in Marshland soil on Xylan	thym	Thymine C5H6N2O2
-M_X	Media + produced compounds in Marshland soil on Xylan	fald	Formaldehyde
-M_X	Media + produced compounds in Marshland soil on Xylan	h2s	Hydrogen sulfide
-M_X	Media + produced compounds in Marshland soil on Xylan	pheme	Protoheme C34H30FeN4O4
-M_X	Media + produced compounds in Marshland soil on Xylan	ribflv	Riboflavin C17H20N4O6
-M_X	Media + produced compounds in Marshland soil on Xylan	h	H+
-M_X	Media + produced compounds in Marshland soil on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
-M_X	Media + produced compounds in Marshland soil on Xylan	gua	Guanine
-M_X	Media + produced compounds in Marshland soil on Xylan	cl	Chloride
-M_X	Media + produced compounds in Marshland soil on Xylan	fol	Folate
-M_X	Media + produced compounds in Marshland soil on Xylan	ibt	Isobutyrate
-M_X	Media + produced compounds in Marshland soil on Xylan	ocdcea	Octadecenoate (n-C18:1)
-M_X	Media + produced compounds in Marshland soil on Xylan	succ	Succinate
-M_X	Media + produced compounds in Marshland soil on Xylan	btn	Biotin
-M_X	Media + produced compounds in Marshland soil on Xylan	ppa	Propionate (n-C3:0)
-M_X	Media + produced compounds in Marshland soil on Xylan	gcald	Glycolaldehyde
-M_X	Media + produced compounds in Marshland soil on Xylan	ca2	Calcium
-M_X	Media + produced compounds in Marshland soil on Xylan	for	Formate
-M_X	Media + produced compounds in Marshland soil on Xylan	na1	Sodium
-M_X	Media + produced compounds in Marshland soil on Xylan	fad	Flavin adenine dinucleotide oxidized
-M_X	Media + produced compounds in Marshland soil on Xylan	lac__L	L-Lactate
-M_X	Media + produced compounds in Marshland soil on Xylan	4abutn	4-Aminobutanal
-M_X	Media + produced compounds in Marshland soil on Xylan	so4	Sulfate
-M_X	Media + produced compounds in Marshland soil on Xylan	h2o	H2O H2O
-M_X	Media + produced compounds in Marshland soil on Xylan	glyc	Glycerol
-M_X	Media + produced compounds in Marshland soil on Xylan	h2	Hydrogen
-M_X	Media + produced compounds in Marshland soil on Xylan	asp__D	D-Aspartate
-M_X	Media + produced compounds in Marshland soil on Xylan	4abz	4-Aminobenzoate
-M_X	Media + produced compounds in Marshland soil on Xylan	pta	Pentanoate
-M_X	Media + produced compounds in Marshland soil on Xylan	ura	Uracil
-M_X	Media + produced compounds in Marshland soil on Xylan	co2	CO2 CO2
-M_X	Media + produced compounds in Marshland soil on Xylan	mal__L	L-Malate
-M_X	Media + produced compounds in Marshland soil on Xylan	mg2	Magnesium
-M_X	Media + produced compounds in Marshland soil on Xylan	zn2	Zinc
-M_X	Media + produced compounds in Marshland soil on Xylan	fe2	Fe2+ mitochondria
-M_X	Media + produced compounds in Marshland soil on Xylan	thm	Thiamin
-M_X	Media + produced compounds in Marshland soil on Xylan	xyl__D	D-Xylose
-M_X	Media + produced compounds in Marshland soil on Xylan	pi	Phosphate
-M_X	Media + produced compounds in Marshland soil on Xylan	pacald	Phenylacetaldehyde
-M_X	Media + produced compounds in Marshland soil on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
-M_X	Media + produced compounds in Marshland soil on Xylan	etoh	Ethanol
-M_X	Media + produced compounds in Marshland soil on Xylan	nh4	Ammonium
+M_P	Media + produced compounds in Marshland soil on PASC	mobd	Molybdate
+M_P	Media + produced compounds in Marshland soil on PASC	ribflv	Riboflavin C17H20N4O6
+M_P	Media + produced compounds in Marshland soil on PASC	cellb	Cellobiose
+M_P	Media + produced compounds in Marshland soil on PASC	urea	Urea CH4N2O
+M_P	Media + produced compounds in Marshland soil on PASC	ppap	Propanoyl phosphate
+M_P	Media + produced compounds in Marshland soil on PASC	ca2	Calcium
+M_P	Media + produced compounds in Marshland soil on PASC	nac	Nicotinate
+M_P	Media + produced compounds in Marshland soil on PASC	isocap	Isocaproate
+M_P	Media + produced compounds in Marshland soil on PASC	fe2	Fe2+ mitochondria
+M_P	Media + produced compounds in Marshland soil on PASC	pnto__R	(R)-Pantothenate
+M_P	Media + produced compounds in Marshland soil on PASC	mal__L	L-Malate
+M_P	Media + produced compounds in Marshland soil on PASC	alaala	D-Alanyl-D-alanine
+M_P	Media + produced compounds in Marshland soil on PASC	so4	Sulfate
+M_P	Media + produced compounds in Marshland soil on PASC	ni2	Nickel
+M_P	Media + produced compounds in Marshland soil on PASC	glc__D	D-Glucose
+M_P	Media + produced compounds in Marshland soil on PASC	pi	Phosphate
+M_P	Media + produced compounds in Marshland soil on PASC	pta	Pentanoate
+M_P	Media + produced compounds in Marshland soil on PASC	h2o	H2O H2O
+M_P	Media + produced compounds in Marshland soil on PASC	arg__L	L-Arginine
+M_P	Media + produced compounds in Marshland soil on PASC	xan	Xanthine
+M_P	Media + produced compounds in Marshland soil on PASC	ac	Acetate
+M_P	Media + produced compounds in Marshland soil on PASC	asp__D	D-Aspartate
+M_P	Media + produced compounds in Marshland soil on PASC	hxan	Hypoxanthine
+M_P	Media + produced compounds in Marshland soil on PASC	ocdcea	Octadecenoate (n-C18:1)
+M_P	Media + produced compounds in Marshland soil on PASC	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+M_P	Media + produced compounds in Marshland soil on PASC	2mpa	2 methylpropanoic acid
+M_P	Media + produced compounds in Marshland soil on PASC	h2s	Hydrogen sulfide
+M_P	Media + produced compounds in Marshland soil on PASC	spmd	Spermidine
+M_P	Media + produced compounds in Marshland soil on PASC	fol	Folate
+M_P	Media + produced compounds in Marshland soil on PASC	met__L	L-Methionine
+M_P	Media + produced compounds in Marshland soil on PASC	cell3	Cellulose (n=3 repeating units)
+M_P	Media + produced compounds in Marshland soil on PASC	cell4	Cellulose (n=4 repeating units)
+M_P	Media + produced compounds in Marshland soil on PASC	slnt	Selenite
+M_P	Media + produced compounds in Marshland soil on PASC	co2	CO2 CO2
+M_P	Media + produced compounds in Marshland soil on PASC	mg2	Magnesium
+M_P	Media + produced compounds in Marshland soil on PASC	thym	Thymine C5H6N2O2
+M_P	Media + produced compounds in Marshland soil on PASC	lys__L	L-Lysine
+M_P	Media + produced compounds in Marshland soil on PASC	k	Potassium
+M_P	Media + produced compounds in Marshland soil on PASC	etha	Ethanolamine
+M_P	Media + produced compounds in Marshland soil on PASC	btn	Biotin
+M_P	Media + produced compounds in Marshland soil on PASC	4abz	4-Aminobenzoate
+M_P	Media + produced compounds in Marshland soil on PASC	cl	Chloride
+M_P	Media + produced compounds in Marshland soil on PASC	cobalt2	Co2+
+M_P	Media + produced compounds in Marshland soil on PASC	but	Butyrate (n-C4:0)
 M_X	Media + produced compounds in Marshland soil on Xylan	xylb	Xylobiose
-M_X	Media + produced compounds in Marshland soil on Xylan	ch4s	Methanethiol CH4S
-M_X	Media + produced compounds in Marshland soil on Xylan	cobalt2	Co2+
-M_X	Media + produced compounds in Marshland soil on Xylan	spmd	Spermidine
+M_X	Media + produced compounds in Marshland soil on Xylan	lac__L	L-Lactate
+M_X	Media + produced compounds in Marshland soil on Xylan	nh4	Ammonium
+M_X	Media + produced compounds in Marshland soil on Xylan	4abutn	4-Aminobutanal
+M_X	Media + produced compounds in Marshland soil on Xylan	na1	Sodium
+M_X	Media + produced compounds in Marshland soil on Xylan	ascb__L	L-Ascorbate
+M_X	Media + produced compounds in Marshland soil on Xylan	h2	Hydrogen
+M_X	Media + produced compounds in Marshland soil on Xylan	succ	Succinate
+M_X	Media + produced compounds in Marshland soil on Xylan	fmn	FMN C17H19N4O9P
+M_X	Media + produced compounds in Marshland soil on Xylan	ppa	Propionate (n-C3:0)
+M_X	Media + produced compounds in Marshland soil on Xylan	pheme	Protoheme C34H30FeN4O4
 M_X	Media + produced compounds in Marshland soil on Xylan	cys__L	L-Cysteine
+M_X	Media + produced compounds in Marshland soil on Xylan	ch4s	Methanethiol CH4S
+M_X	Media + produced compounds in Marshland soil on Xylan	acald	Acetaldehyde
+M_X	Media + produced compounds in Marshland soil on Xylan	thm	Thiamin
+M_X	Media + produced compounds in Marshland soil on Xylan	mn2	Manganese
+M_X	Media + produced compounds in Marshland soil on Xylan	ura	Uracil
+M_X	Media + produced compounds in Marshland soil on Xylan	h	H+
+M_X	Media + produced compounds in Marshland soil on Xylan	cu2	Copper
 M_X	Media + produced compounds in Marshland soil on Xylan	fe3	Iron (Fe3+)
-M_X	Media + produced compounds in Marshland soil on Xylan	k	Potassium
+M_X	Media + produced compounds in Marshland soil on Xylan	zn2	Zinc
+M_X	Media + produced compounds in Marshland soil on Xylan	pacald	Phenylacetaldehyde
+M_X	Media + produced compounds in Marshland soil on Xylan	5drib	5'-deoxyribose
+M_X	Media + produced compounds in Marshland soil on Xylan	gua	Guanine
 M_X	Media + produced compounds in Marshland soil on Xylan	pydxn	Pyridoxine
+M_X	Media + produced compounds in Marshland soil on Xylan	mobd	Molybdate
+M_X	Media + produced compounds in Marshland soil on Xylan	ribflv	Riboflavin C17H20N4O6
+M_X	Media + produced compounds in Marshland soil on Xylan	ca2	Calcium
+M_X	Media + produced compounds in Marshland soil on Xylan	nac	Nicotinate
+M_X	Media + produced compounds in Marshland soil on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
+M_X	Media + produced compounds in Marshland soil on Xylan	fe2	Fe2+ mitochondria
+M_X	Media + produced compounds in Marshland soil on Xylan	pnto__R	(R)-Pantothenate
+M_X	Media + produced compounds in Marshland soil on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
+M_X	Media + produced compounds in Marshland soil on Xylan	mal__L	L-Malate
+M_X	Media + produced compounds in Marshland soil on Xylan	so4	Sulfate
+M_X	Media + produced compounds in Marshland soil on Xylan	ibt	Isobutyrate
+M_X	Media + produced compounds in Marshland soil on Xylan	xyl3	Xylotriose
+M_X	Media + produced compounds in Marshland soil on Xylan	xyl__D	D-Xylose
+M_X	Media + produced compounds in Marshland soil on Xylan	for	Formate
+M_X	Media + produced compounds in Marshland soil on Xylan	ni2	Nickel
+M_X	Media + produced compounds in Marshland soil on Xylan	pi	Phosphate
+M_X	Media + produced compounds in Marshland soil on Xylan	pta	Pentanoate
+M_X	Media + produced compounds in Marshland soil on Xylan	fald	Formaldehyde
+M_X	Media + produced compounds in Marshland soil on Xylan	h2o	H2O H2O
+M_X	Media + produced compounds in Marshland soil on Xylan	5mdru1p	5-Methylthio-5-deoxy-D-ribulose 1-phosphate
+M_X	Media + produced compounds in Marshland soil on Xylan	ac	Acetate
+M_X	Media + produced compounds in Marshland soil on Xylan	asp__D	D-Aspartate
+M_X	Media + produced compounds in Marshland soil on Xylan	ocdcea	Octadecenoate (n-C18:1)
+M_X	Media + produced compounds in Marshland soil on Xylan	h2s	Hydrogen sulfide
+M_X	Media + produced compounds in Marshland soil on Xylan	etoh	Ethanol
+M_X	Media + produced compounds in Marshland soil on Xylan	spmd	Spermidine
+M_X	Media + produced compounds in Marshland soil on Xylan	fol	Folate
+M_X	Media + produced compounds in Marshland soil on Xylan	co2	CO2 CO2
+M_X	Media + produced compounds in Marshland soil on Xylan	fad	Flavin adenine dinucleotide oxidized
+M_X	Media + produced compounds in Marshland soil on Xylan	mg2	Magnesium
+M_X	Media + produced compounds in Marshland soil on Xylan	thym	Thymine C5H6N2O2
+M_X	Media + produced compounds in Marshland soil on Xylan	k	Potassium
+M_X	Media + produced compounds in Marshland soil on Xylan	btn	Biotin
+M_X	Media + produced compounds in Marshland soil on Xylan	4abz	4-Aminobenzoate
+M_X	Media + produced compounds in Marshland soil on Xylan	cl	Chloride
+M_X	Media + produced compounds in Marshland soil on Xylan	cobalt2	Co2+
+M_X	Media + produced compounds in Marshland soil on Xylan	but	Butyrate (n-C4:0)

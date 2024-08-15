@@ -149,7 +149,7 @@ def data_for_links(steadiercom_crossfeeding_only,members,min_flux=0):
         link.append((receiver,lower_receiver_i,upper_receiver_i))
      
 
-        link.append(row.compound)
+        link.append(row.super_class)
         links.append(link)
         
         

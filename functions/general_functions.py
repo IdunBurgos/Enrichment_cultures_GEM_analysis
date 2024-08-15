@@ -34,7 +34,6 @@ def read_allmags_data():
 
     all_mags_paper = pd.read_excel("../input/files_from_fairdomhub/All_Mags_for_paper_analysis.xlsx",sheet_name="Coverage_vol2")
     all_mags_paper.set_index("MAG",inplace=True)
-    all_mags_paper.drop("CH14-bin.0",inplace=True)
     all_mags_paper.drop("Coverage (%)",axis=1,inplace=True)
 
     mags_fasta = set([str(string)[2:-5] for string in os.listdir(directory)])
@@ -45,7 +44,7 @@ def read_allmags_data():
     all_mags_paper.drop("Phylum",axis=1)
     all_mags_paper["Phylum"] = phylum_series.map(merge_phyla)
     
-    assert len(all_mags_paper.index)==72,"There should be 72 rows in this dataframe"
+    assert len(all_mags_paper.index)==73,"There should be 73 rows in this dataframe"
         
     assert isinstance(all_mags_paper,pd.DataFrame), "Something went wrong with processing of dataframe"
     return all_mags_paper

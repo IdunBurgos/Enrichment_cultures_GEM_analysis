@@ -92,7 +92,6 @@ SC1_X	SynCon1 on Xylan	cobalt2	Co2+
 SC1_X	SynCon1 on Xylan	thm	Thiamin
 SC1_X	SynCon1 on Xylan	ascb__L	L-Ascorbate
 SC1_X	SynCon1 on Xylan	xylb	Xylobiose
-SC1_X	SynCon1 on Xylan	xyl3	Xylotriose
 SC1_X	SynCon1 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
 SC1_X	SynCon1 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)
 SC2_X	SynCon2 on Xylan	zn2	Zinc
@@ -124,6 +123,5 @@ SC2_X	SynCon2 on Xylan	ca2	Calcium
 SC2_X	SynCon2 on Xylan	cobalt2	Co2+
 SC2_X	SynCon2 on Xylan	thm	Thiamin
 SC2_X	SynCon2 on Xylan	xylb	Xylobiose
-SC2_X	SynCon2 on Xylan	xyl3	Xylotriose
 SC2_X	SynCon2 on Xylan	xylan4	Xylan (4 backbone units, 1 glcur side chain)
 SC2_X	SynCon2 on Xylan	xylan8	Xylan (8 backbone units, 2 glcur side chain)

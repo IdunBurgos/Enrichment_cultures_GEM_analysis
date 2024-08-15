@@ -4,8 +4,11 @@ lib/
 notebooks_old/
 carveme/
 input/genbank.zip
-tebooks_old/
+notebooks_old/
 output/GEMs/GEMs_final/        
+output/GEMs/GEMs_final_test/
+output/GEMs/GEMs_final2/
+output/GEMs/GEMs_final3/
 output/GEMs/GEMs_intermediate/        
 output/GEMs/GEMs_intermediate.zip
 output/GEMs/old_GEMs_adapt_media_ACt2r.zip
@@ -16,3 +19,4 @@ output/GEMs/GEMs_no_constraints/
 output/MAGs_fasta.zip        
 output/MAGs_fasta/       
 output/old_data/
+2.\ Notebooks\ -\ enrichment\ cultures\ simulations/untitled.txt

@@ -12,3 +12,7 @@ do
     blastp -query ./transporters/transporters.faa -db ./output/MAGs_fasta/${MAG}.faa -out ./transporters/${MAG}.tsv -outfmt 6
     
 done
+
+
+makeblastdb -in ./output/CH14-bin.0.faa -dbtype prot
+blastp -query ./1.\ Notebooks\ -\ reconstructing\ GEMs\ for\ MAGs/transporters/transporters.faa -db ./output/CH14-bin.0.faa -out ./output/CH14-bin.0.tsv -outfmt 6
