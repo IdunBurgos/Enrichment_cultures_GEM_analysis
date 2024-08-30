@@ -36,9 +36,9 @@ def read_allmags_data():
     all_mags_paper.set_index("MAG",inplace=True)
     all_mags_paper.drop("Coverage (%)",axis=1,inplace=True)
 
-    mags_fasta = set([str(string)[2:-5] for string in os.listdir(directory)])
-    all_mags_paper = all_mags_paper[all_mags_paper.index.isin(mags_fasta)].copy()
-
+    #mags_fasta = set([str(string)[2:-5] for string in os.listdir(directory)])
+    #all_mags_paper = all_mags_paper[all_mags_paper.index.isin(mags_fasta)].copy()
+    all_mags_paper = all_mags_paper[all_mags_paper.new_coverage>1].copy()
     
     phylum_series = all_mags_paper["Phylum"].copy()
     all_mags_paper.drop("Phylum",axis=1)

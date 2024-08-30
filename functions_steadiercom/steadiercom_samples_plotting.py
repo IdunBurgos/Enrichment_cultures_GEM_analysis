@@ -120,7 +120,6 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
         # Add color for group
         track = sector.add_track((95, 100))
         
-        #track.axis(fc=cmap(index_color[i]))
         track.axis(fc=genus2color_dict[mag2genus_dict[sector.name]])
         genera_specific.append(mag2genus_dict[sector.name])
         
@@ -145,26 +144,27 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
      ### Plot
 
 
-    fig = circos.plotfig(figsize=(15,15))
-
+    fig = circos.plotfig(figsize=(12,12))
+    
     colors_classes = list(set(colors_classes))
     
     line_handles = [Patch(color=color_code[0], label=color_code[1],alpha=0.8) for color_code in colors_classes]
     line_legend = circos.ax.legend(
         handles=line_handles,
-        bbox_to_anchor=(0.8, 1.05),
+        bbox_to_anchor=(0.95, 1),  # Positioning to the right of the plot
+        loc='upper left', 
         fontsize=fontsize,
         title="COMPOUNDS",
         handlelength=2,
     )
-    
     
     # Legend for genus
 
     genus_handles = [Patch(color=color, label=genus) for genus, color in genus2color_dict.items() if genus in genera_specific]
     genus_legend = circos.ax.legend(
         handles=genus_handles,
-        bbox_to_anchor=(-0.05, 1.05),  # Adjust the position as needed
+        bbox_to_anchor=(0.05,1),  # Positioning to the left of the plot
+        loc='upper right',
         fontsize=fontsize,
         title="GENUS",
         handlelength=2,
@@ -175,8 +175,9 @@ def plot_circos_plot(links,members,fontsize=15,title=None):
     plt.title(title,fontsize=30)
     
     mag2color= dict(zip(members,index_color))
-    
-    return fig,mag2color
+    plt.tight_layout(rect=[0, 0, 0.8, 0.8])
+
+    return fig,mag2color,line_legend,genus_legend
 
 def data_uptake_prod(steadiercom_samples,all_mags_paper=all_mags_paper,community_id=False,compound_type=False,only_media=False,min_frequency=0.0):
     
@@ -212,8 +213,6 @@ def data_uptake_prod(steadiercom_samples,all_mags_paper=all_mags_paper,community
     
     # DATA FOR ABUNDANCE "PLOT
     community_abundance = data_community_abundance_func(steadiercom_samples_preprocessed_copy,all_mags_paper,community_id=community_id)
-    
-    
     
     ## Sort dataframes
     
