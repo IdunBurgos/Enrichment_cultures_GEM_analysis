@@ -1,10 +1,14 @@
 .ipynb_checkpoints
+functions_steadiercom/__pycache__/steadiercom_samples_preprocessing.cpython-39.pyc
+functions_steadiercom/__pycache__/supplementary_process_data.cpython-39.pyc
+functions_steadiercom/__pycache__/supplementary_statistics.cpython-39.pyc
 DS_Store
 lib/
 notebooks_old/
 carveme/
 input/genbank.zip
 notebooks_old/
+output/
 output/GEMs/GEMs_final/        
 output/GEMs/GEMs_final_test/
 output/GEMs/GEMs_final2/
@@ -22,4 +26,10 @@ output/old_data/
 2.\ Notebooks\ -\ enrichment\ cultures\ simulations/untitled.txt
 2.\ Notebooks\ -\ enrichment\ cultures\ simulations/Figures/
 1. Notebooks - reconstructing GEMs for MAGs/output/
-
+1.\ Reconstructing\ GEMs\ from\ MAGs/notebooks_analyzing_models/
+1.\ Reconstructing\ GEMs\ from\ MAGs/notebooks_building_models/
+2.\ enrichment\ cultures\ simulations/notebooks_detailed_analysis/
+2.\ enrichment\ cultures\ simulations/Figures
+2.\ enrichment\ cultures\ simulations/single_sim
+output_30_08_24/
+2.\ enrichment\ cultures\ simulations/untitled.txt

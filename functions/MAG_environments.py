@@ -31,8 +31,6 @@ def enrich_syncon_environments():
     syncon1.remove("slnt")
     syncon1.append("ascb__L")
 
-
-
     media = {}
 
     for polysaccharide,compounds in substrate_composition.items():

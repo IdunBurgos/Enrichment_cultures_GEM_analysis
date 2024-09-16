@@ -8,6 +8,7 @@ sys.path.append('../functions')
 import translation_dicts
 import colors_MAGs as color_func
 import general_functions as general_func
+import steadiercom_samples_preprocessing
 
 
 all_mags_paper = general_func.read_allmags_data()  
@@ -16,6 +17,7 @@ chebi_lut["other"] = "#eaeaea"
 
 met2superclass_dict = chebi_interesting["self defined super class"].to_dict()
 
+"""
 def assign_super_class(row):
     met = row.compound
     
@@ -35,13 +37,16 @@ def mag2genus(steadiercom_sample,all_mags_paper):
     
     return genus_groups,mag2genus_dict,MAGs_steady_com
 
+"""
+
 def preprocessing_func(steadiercom_samples):
     
     steadiercom_samples_preprocessed = steadiercom_samples.copy()
-    
     steadiercom_samples_preprocessed["mass_rate*frequency"] = steadiercom_samples_preprocessed.apply(lambda row: row.mass_rate*row.frequency,axis=1)
+    steadiercom_samples_preprocessed["super_class"] = steadiercom_samples_preprocessed.compound.map(steadiercom_samples_preprocessing.assign_super_class)
     
-    steadiercom_samples_preprocessed["super_class"] = steadiercom_samples_preprocessed.apply(assign_super_class,axis=1)
+    # Only relevant compounds will be classified, rest is "other"
+    steadiercom_samples_preprocessed["super_class"] = steadiercom_samples_preprocessed["super_class"].map(lambda x: x if x in chebi_lut.keys() else "other")
     
     return steadiercom_samples_preprocessed
 

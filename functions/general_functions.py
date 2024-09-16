@@ -35,9 +35,7 @@ def read_allmags_data():
     all_mags_paper = pd.read_excel("../input/files_from_fairdomhub/All_Mags_for_paper_analysis.xlsx",sheet_name="Coverage_vol2")
     all_mags_paper.set_index("MAG",inplace=True)
     all_mags_paper.drop("Coverage (%)",axis=1,inplace=True)
-
-    #mags_fasta = set([str(string)[2:-5] for string in os.listdir(directory)])
-    #all_mags_paper = all_mags_paper[all_mags_paper.index.isin(mags_fasta)].copy()
+    
     all_mags_paper = all_mags_paper[all_mags_paper.new_coverage>1].copy()
     
     phylum_series = all_mags_paper["Phylum"].copy()
@@ -69,4 +67,52 @@ def chebi_selected(interesting_super_classes=['carbohydrate derivatives', 'amino
     
     return chebi_interesting
 
+
+def all_mags_paper_genus(all_mags_paper,prefix=True):
+    all_mags_paper_processed = all_mags_paper.copy()
+    
+    # Add g_ or f_ prefix (if genus is not defined) 
+    if prefix:
+        all_mags_paper_processed["Genus"] = all_mags_paper_processed.apply(lambda row: "g_"+row.Genus if isinstance(row.Genus,str) else "f_"+row.Family,axis=1)
+    
+    # Add f_ prefix if genus is not defined
+    else:
+        all_mags_paper_processed["Genus"] = all_mags_paper_processed.apply(lambda row: row.Genus if isinstance(row.Genus,str) else "f_"+row.Family,axis=1)
+        
+    total_members_genus = all_mags_paper_processed.groupby("Genus").count()["Source"].to_dict()
+    
+    return all_mags_paper_processed,total_members_genus
+
+def all_mags_paper_family(all_mags_paper, prefix=True,combine=True):
+    all_mags_paper_processed = all_mags_paper.copy()
+    
+    # Add f_prefix
+    if prefix:
+        all_mags_paper_processed["Family"] = all_mags_paper_processed.apply(lambda row: "f_"+row.Family,axis=1)
+        
+    total_members_family = all_mags_paper_processed.groupby("Family").count()["Source"].to_dict()
+    
+    # Combine small families into "Other" group
+    if combine:
+        all_mags_paper_processed["Family"] = all_mags_paper_processed.apply(lambda row: row.Family if total_members_family[row.Family]>1 else "Other",axis=1)
+    
+    total_members_family = all_mags_paper_processed.groupby("Family").count()["Source"].to_dict()
+    
+    return all_mags_paper_processed,total_members_family
+
+def mag2genus(all_mags_paper):  
+    """
+    NB: This requires that all elements in genus column of all_mags_paper have an attribute
+    """
+    genus_groups = all_mags_paper.groupby("Genus").groups
+    mag2genus_dict = {mag:genus for genus,mags in genus_groups.items() for mag in mags}
+    
+    return genus_groups,mag2genus_dict
+
+def mag2family(all_mags_paper):  
+    
+    family_groups = all_mags_paper.groupby("Family").groups
+    mag2family_dict = {mag:family for family,mags in family_groups.items() for mag in mags}
+    
+    return family_groups,mag2family_dict
     
