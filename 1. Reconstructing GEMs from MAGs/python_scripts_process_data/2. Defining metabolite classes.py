@@ -280,6 +280,10 @@ met_chebi_df.loc["M_so3_e"] = ["CHEBI:138675","gas molecular entity","gases"]
 met_chebi_df.loc["M_o2_e"] = ["CHEBI:138675","gas molecular entity","gases"]
 met_chebi_df.loc["M_o2s_e"] = ["CHEBI:138675","gas molecular entity","gases"]
 met_chebi_df.loc["M_n2_e"] = ["CHEBI:138675","gas molecular entity","gases"]
+
+
+met_chebi_df.loc["M_cellb_e"] = ["CHEBI:36233","disaccharide","simple sugars"] ### NEW
+
 met_chebi_df[met_chebi_df["self defined super class"]=="gases"]
 
 

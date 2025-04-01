@@ -1,6 +1,37 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+# NB: This function does NOT confirm that the metabolite is produced, it just checks if it has the exchange reaction.
+def best_candidate(SC_rxns,MAGs,diff_df_select):
+    """
+    Input:
+    SC_rxns - list of exchanged metabolites of community (exchange reactions)
+    MAGs - list of MAGs in this community
+    diff_df_select - dataframe with increase in rxns and symmetric difference
+    """
+    rxn_candidates ={}
+    
+    # For each exchanged compound find the candidate with lowest score in symmetric_diff
+    for rxn in SC_rxns:
+        rxn_candidates[rxn]={"MAG":None,"symmetric_diff":1000} # Default
+        
+        # For each community member
+        for MAG in MAGs:
+            
+            # If reaction is not in model it is not a candidate
+            if rxn not in GEMs_dict[soft_constraint_selected][MAG].reactions:
+                continue
+                
+            symmetric_diff = diff_df_select.loc[MAG,"symmetric_diff"]  
+            
+            # If the symmetric difference is smaller than for the previous candidate
+            if symmetric_diff<rxn_candidates[rxn]["symmetric_diff"]:
+                rxn_candidates[rxn]["MAG"]=MAG
+                rxn_candidates[rxn]["symmetric_diff"]=symmetric_diff
+                
+    return rxn_candidates
+
 print("**SELECT MODELS**")
 
 print("\t Load data...")
@@ -74,36 +105,6 @@ diff_df = pd.DataFrame.from_dict({(constr_status,diff_type):difference_dict[cons
 
 # change this if you want to study something different.
 soft_constraint_selected = "constr0_1"
-
-# NB: This function does NOT confirm that the metabolite is produced, it just checks if it has the exchange reaction.
-def best_candidate(SC_rxns,MAGs,diff_df_select):
-    """
-    Input:
-    SC_rxns - list of exchanged metabolites of community (exchange reactions)
-    MAGs - list of MAGs in this community
-    diff_df_select - dataframe with increase in rxns and symmetric difference
-    """
-    rxn_candidates ={}
-    
-    # For each exchanged compound find the candidate with lowest score in symmetric_diff
-    for rxn in SC_rxns:
-        rxn_candidates[rxn]={"MAG":None,"symmetric_diff":1000} # Default
-        
-        # For each community member
-        for MAG in MAGs:
-            
-            # If reaction is not in model it is not a candidate
-            if rxn not in GEMs_dict[soft_constraint_selected][MAG].reactions:
-                continue
-                
-            symmetric_diff = diff_df_select.loc[MAG,"symmetric_diff"]  
-            
-            # If the symmetric difference is smaller than for the previous candidate
-            if symmetric_diff<rxn_candidates[rxn]["symmetric_diff"]:
-                rxn_candidates[rxn]["MAG"]=MAG
-                rxn_candidates[rxn]["symmetric_diff"]=symmetric_diff
-                
-    return rxn_candidates
 
 #Find best candidates - Based on the fact that we expect certain compounds produced, which models created with soft constraints are the best candidates? Through this code we select just one model for each community and compound produced.
 print("\t Select models...")

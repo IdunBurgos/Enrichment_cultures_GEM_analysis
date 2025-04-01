@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 # Import reaction dataframe
-EGC_rxns = pd.read_excel("/Users/idunmariaburgos/Documents/Work/Project/Ruminiclostridium cellulolyticum part 2/EGC.xlsx",
+EGC_rxns = pd.read_excel("../input/EGC.xlsx",
                          sheet_name="Sheet2",
                          usecols="C:E")
 

@@ -17,27 +17,6 @@ chebi_lut["other"] = "#eaeaea"
 
 met2superclass_dict = chebi_interesting["self defined super class"].to_dict()
 
-"""
-def assign_super_class(row):
-    met = row.compound
-    
-    super_class = "other"
-    if met in met2superclass_dict.keys():
-        super_class = met2superclass_dict[met]
-    return super_class
-
-def mag2genus(steadiercom_sample,all_mags_paper):  
-   
-    # Find members of this dataset 
-    MAGs_steady_com = set(list(steadiercom_sample[steadiercom_sample.donor!="environment"].donor.values)+list(steadiercom_sample[steadiercom_sample.receiver!="environment"].receiver.values)) 
-    # Find the genus for the members
-
-    genus_groups = all_mags_paper[all_mags_paper.index.isin(MAGs_steady_com)].groupby("Genus").groups
-    mag2genus_dict = {mag:genus for genus,mags in genus_groups.items() for mag in mags}
-    
-    return genus_groups,mag2genus_dict,MAGs_steady_com
-
-"""
 
 def preprocessing_func(steadiercom_samples):
     

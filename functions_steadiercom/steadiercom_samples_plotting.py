@@ -32,7 +32,6 @@ def get_genus_colors(MAGs):
     all_mags_paper_reduced = all_mags_paper[(all_mags_paper.new_coverage>1) & (all_mags_paper.index.isin(MAGs))].copy()
     all_mags_paper_reduced,total_members_genus = general_func.all_mags_paper_genus(all_mags_paper_reduced,prefix=False)
     
-    #all_mags_paper_reduced["Genus"] = all_mags_paper_reduced.apply(lambda row: row.Genus if isinstance(row.Genus,str) else "f_"+row.Family,axis=1)
     all_mags_paper_reduced = all_mags_paper_reduced.sort_values(["Domain","Phylum","Class","Order","Family","Species"])
 
     genera = all_mags_paper_reduced.Genus.unique()
@@ -170,8 +169,6 @@ def plot_circos_plot(links,members,fontsize=15,title=None,extra_compounds=False,
         genera_specific.append(mag2genus_dict[sector.name])
         i+=1
 
-        
-    #colors_classes = []
     classes = []
     for link in links:
 
@@ -185,7 +182,6 @@ def plot_circos_plot(links,members,fontsize=15,title=None,extra_compounds=False,
         circos.link(link[0],link[1],direction=1,color=color,ec=color,arrow_length_ratio=0.15,allow_twist=False)
 
         classes.append(class_)
-        #colors_classes.append((color,class_))
         
      ### Plot
 
@@ -230,9 +226,7 @@ def plot_circos_plot(links,members,fontsize=15,title=None,extra_compounds=False,
     
     circos.ax.add_artist(line_legend)
     circos.ax.add_artist(genus_legend)
-    
-    #plt.title(title,fontsize=30)
-    
+
     mag2color= dict(zip(members,index_color))
     plt.tight_layout(rect=[0, 0, 0.8, 0.8])
     plt.close()
@@ -241,10 +235,6 @@ def plot_circos_plot(links,members,fontsize=15,title=None,extra_compounds=False,
 
 
 def plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,title=None,legend=True):
-
-    #data_receiver_df = data_receiver_df*1000
-    #data_donor_df = data_donor_df*1000
-    
     members = list(data_donor_df.columns)+list(data_receiver_df.columns)
     
     # Find colors for genus 
@@ -260,7 +250,6 @@ def plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,title=No
     community_abundance.plot(ax=axs[0],kind="line",x="MAG",y="exp_relative_abundance",ylabel="",xlabel="",color="red",style='o-',markersize=15,lw=4)
     axs[0].set_xticks([])
     axs[0].tick_params(labelsize=22)
-    #axs[0].set_yticks([])
     axs[0].legend('')
     axs[0].set_title("Relative \n abundance",x=-.1,y=0.0,fontsize=28,rotation=90)
 
@@ -270,7 +259,6 @@ def plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,title=No
     data_donor_df.transpose().plot(kind="bar",ax=axs[1],color = chebi_lut,legend=None,stacked=True,alpha=0.8)
     axs[1].set_xticks([])
     axs[1].tick_params(labelsize=22)
-    #axs[1].set_yticks([])
     axs[1].set_xlabel('')
     axs[1].set_title("Production \n [mg/(h*g$_{bio}$)]",x=-.1,y=0.2,fontsize=28,rotation=90)
 
@@ -344,11 +332,11 @@ def combined_figure(steadier_sample,community_id,path = "Figures/circos_plots_2_
     data_receiver_df,data_donor_df,community_abundance = data_uptake_prod(steadier_sample,community_id=community_id,compound_type=False,only_media=False)
     
     fig,mag2color_bar,extra_compounds = plot_uptake_prod(data_receiver_df,data_donor_df,community_abundance,legend=False)
-    fig.savefig(path+"bar_"+community_id+".png",bbox_inches='tight')    
+    fig.savefig(path+"bar_"+community_id+".png",bbox_inches='tight',dpi=300)    
     
     links,members = circos_plot_process_data(steadier_sample,community_id=community_id,min_flux=0,min_frequency=0.1)
     fig,mag2color_circos,line_legend,genus_legend = plot_circos_plot(links,members,extra_compounds =extra_compounds,move_legend=move_legend)
-    fig.savefig(path+"circos_"+community_id+".png",bbox_extra_artists=(line_legend,genus_legend),bbox_inches='tight')
+    fig.savefig(path+"circos_"+community_id+".png",bbox_extra_artists=(line_legend,genus_legend),bbox_inches='tight',dpi=300)
     
     
     assert mag2color_circos==mag2color_bar
@@ -364,10 +352,8 @@ def combined_figure(steadier_sample,community_id,path = "Figures/circos_plots_2_
     # reading images 
     Image1 = plt.imread(path+"bar_"+community_id+".png") 
 
-    #Image1 = plt.cvtColor(Image1, cv2.COLOR_BGR2RGB)
 
     Image2 = plt.imread(path+"circos_"+community_id+".png")
-    #Image2 = cv2.cvtColor(Image2, cv2.COLOR_BGR2RGB)
 
     # Adds a subplot at the 1st position 
     fig.add_subplot(rows, columns, 1) 
@@ -375,7 +361,7 @@ def combined_figure(steadier_sample,community_id,path = "Figures/circos_plots_2_
     # showing image 
     plt.imshow(Image1) 
     plt.axis('off') 
-    plt.title("a",loc="left",fontsize=20) 
+    plt.title("A",loc="left",fontdict={"fontsize": 23, "weight": "bold"}) 
 
     # Adds a subplot at the 2nd position 
     fig.add_subplot(rows, columns, 2) 
@@ -383,10 +369,10 @@ def combined_figure(steadier_sample,community_id,path = "Figures/circos_plots_2_
     # showing image 
     plt.imshow(Image2) 
     plt.axis('off') 
-    plt.title("b",loc="left",fontsize=20)
+    plt.title("B",loc="left",fontdict={"fontsize": 23, "weight": "bold"})
 
     plt.tight_layout()
-    plt.savefig(path+"combined_"+community_id+".png")
+    plt.savefig(path+"combined_"+community_id+".png",dpi=300)
     plt.show()
 
 
